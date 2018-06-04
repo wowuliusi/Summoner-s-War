@@ -1,0 +1,13 @@
+using System.Collections.Generic;
+
+namespace Configs
+{
+    public class {{.Name}} 
+    {
+        {{- with .Template -}}
+        {{- range .Fields}}
+        public {{GetCSharpTypeName .LongType}} {{.Name}};
+        {{- end}}
+        {{- end}}
+    }
+{{"}" -}}
