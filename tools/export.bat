@@ -1,2 +1,2 @@
-.\excelizor -p "C:/Users/Liu/go/src/sky/xlsx" -json=../exports/ -golang=../exports/
+.\excelizor -p "../xlsx" -json=../exports/ -golang=../exports/
 pause

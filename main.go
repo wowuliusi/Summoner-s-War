@@ -101,8 +101,8 @@ func main() {
 		}
 		myrunes = append(myrunes, tmp)
 	}
-	var monsterid = "1599219954"
-	var monsterid2 int64 = 1599219954
+	var monsterid = "1493239978"
+	var monsterid2 int64 = 1493239978
 	var monster Monster
 	var wor []exports.Worth
 	wordat, _ := ioutil.ReadFile("exports/worth.json")
@@ -179,7 +179,7 @@ func main() {
 									if toprunes[6][r6] == nil {
 										continue
 									}
-									var sum float32 = 0 //caculate(toprunes[1][r1], toprunes[2][r2], toprunes[3][r3], toprunes[4][r4], toprunes[5][r5], toprunes[6][r6], monster)
+									var sum float32 = caculate(toprunes[1][r1], toprunes[2][r2], toprunes[3][r3], toprunes[4][r4], toprunes[5][r5], toprunes[6][r6], monster)
 									if sum > maxsum {
 										maxsum = sum
 										maxrune[1] = r1
@@ -197,9 +197,9 @@ func main() {
 			}
 		}
 	}
-	//fmt.Println("find:", maxsum)
+	fmt.Println("find:", maxsum)
 	for i := 1; i < 7; i++ {
-		//fmt.Println(i, ": set:", (*toprunes[i][maxrune[i]]).Set_id, " sum:", (*toprunes[i][maxrune[i]]).sum, (*(*toprunes[i][maxrune[i]]).p).Sec_eff)
+		fmt.Println(i, ": set:", (*toprunes[i][maxrune[i]]).Set_id, " sum:", (*toprunes[i][maxrune[i]]).sum, (*(*toprunes[i][maxrune[i]]).p).Sec_eff)
 	}
 }
 
@@ -261,7 +261,7 @@ func caculate(a1, a2, a3, a4, a5, a6 *rune, monster Monster) float32 {
 	}
 	var EHP float32 = float32(HP * (333 + DEF) / 287 / 150)
 	EHPDPS := float32(math.Sqrt(float64(DPS*EHP))) * 2
-	Final := DPS*monsterworth.DPS + EHP*monsterworth.EHP + EHPDPS*monsterworth.EHPDPS + float32(SPD)*monsterworth.SPDFUNC + float32(ATK)*monsterworth.ATKFUNC + float32(DEF)*monsterworth.DEFFUNC + float32(CRI)*monsterworth.CRIFUNC
+	Final := DPS*monsterworth.DPS + EHP*monsterworth.EHP + EHPDPS*monsterworth.EHPDPS + float32(SPD)*monsterworth.SPDFUNC + float32(HP)*monsterworth.HPFUNC + float32(ATK)*monsterworth.ATKFUNC + float32(DEF)*monsterworth.DEFFUNC + float32(CRI)*monsterworth.CRIFUNC
 	if ACC > monsterworth.ACCTAR {
 		Final += monsterworth.ACCTAR*monsterworth.ACC + (ACC-monsterworth.ACCTAR)*monsterworth.ACC/3
 	} else {
@@ -281,6 +281,6 @@ func caculate(a1, a2, a3, a4, a5, a6 *rune, monster Monster) float32 {
 
 	}
 
-	fmt.Println("HP:", HP, "ATK:", ATK, "DEF:", DEF, "CRI:", CRI, "CRIDMG:", CRIDMG, "SPD:", SPD, "ACC:", ACC, "RES:", RES, "DPS:", DPS, "EHP:", EHP, "EHPDPS:", EHPDPS)
+	//fmt.Println("HP:", HP, "ATK:", ATK, "DEF:", DEF, "CRI:", CRI, "CRIDMG:", CRIDMG, "SPD:", SPD, "ACC:", ACC, "RES:", RES, "DPS:", DPS, "EHP:", EHP, "EHPDPS:", EHPDPS)
 	return Final
 }
