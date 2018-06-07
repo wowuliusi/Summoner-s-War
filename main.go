@@ -101,8 +101,8 @@ func main() {
 		}
 		myrunes = append(myrunes, tmp)
 	}
-	var monsterid = "1493239978"
-	var monsterid2 int64 = 1493239978
+	var monsterid = "1998233295"
+	var monsterid2 int64 = 1998233295
 	var monster Monster
 	var wor []exports.Worth
 	wordat, _ := ioutil.ReadFile("exports/worth.json")
