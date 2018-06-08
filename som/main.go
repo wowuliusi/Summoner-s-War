@@ -62,9 +62,9 @@ type MonsterAttribute struct {
 	SPD    int
 	ACC    int
 	RES    int
-	DPS    int
-	EHP    int
-	EHPDPS int
+	DPS    float32
+	EHP    float32
+	EHPDPS float32
 	SUM    float32
 	Runes  CompleteRunes
 }
@@ -86,6 +86,7 @@ var maxrune6 = []int{0, 2448, 63, 160, 63, 160, 63, 0, 42, 58, 80, 64, 64}
 var maxrune5 = []int{0, 2050, 51, 135, 51, 135, 51, 0, 39, 47, 59, 50, 50}
 var attrb = []float32{0, 0, 6.5, 0, 6.5, 0, 6.5, 0, 5, 5, 5.5, 6, 6}
 var savenum int = 10
+var Attrname = []string{"x", "HP", "HP%", "ATK", "ATK%", "DEF", "DEF%", "x", "SPD", "CRI", "CRIDMG", "RES", "ACC"}
 
 var toprunes [7][10](*rune)
 var bestsetrune [7][24](*rune)
@@ -130,8 +131,8 @@ func main() {
 		}
 		myrunes = append(myrunes, tmp)
 	}
-	var monsterid = "918404274"
-	var monsterid2 int64 = 918404274
+	var monsterid = "2350714359"
+	var monsterid2 int64 = 2350714359
 	var monster Monster
 	var wor []exports.Worth
 	wordat, _ := ioutil.ReadFile("../exports/worth.json")
@@ -143,8 +144,8 @@ func main() {
 			break
 		}
 	}
-
-	for _, monster = range game.Unit_list {
+	var k int
+	for k, monster = range game.Unit_list {
 		if monster.Unit_id == monsterid2 {
 			var montmp MyMonster
 			for i, r := range monster.Runes {
@@ -153,7 +154,7 @@ func main() {
 				tmp.Upgrade_curr = r.Upgrade_curr
 				tmp.Slot_no = r.Slot_no
 				tmp.Class = r.Class
-				tmp.p = &(game.Runes[i])
+				tmp.p = &(game.Unit_list[k].Runes[i])
 				if tmp.Class == 6 {
 					tmp.attr[r.Pri_eff[0]] += maxrune6[r.Pri_eff[0]]
 				} else {
@@ -164,7 +165,7 @@ func main() {
 					tmp.attr[j[0]] += j[1] + j[3]
 				}
 				myrunes = append(myrunes, tmp)
-				montmp.OldCRunes.Runes[tmp.Slot_no] = &myrunes[len(myrunes)-1]
+				montmp.OldCRunes.Runes[tmp.Slot_no] = &(myrunes[len(myrunes)-1])
 			}
 			montmp.mon = monster
 			MyMonsters = append(MyMonsters, montmp)
@@ -212,13 +213,26 @@ func main() {
 		}
 	}
 	nowsum := caculate(MyMonsters[0].OldCRunes, &MyMonsters[0]) //caculate(&myrunes[len(myrunes)-6], &myrunes[len(myrunes)-5], &myrunes[len(myrunes)-4], &myrunes[len(myrunes)-3], &myrunes[len(myrunes)-2], &myrunes[len(myrunes)-1], monster)
-	fmt.Println("now:", nowsum)
+	fmt.Println("now:", nowsum.SUM, "  DPS:", nowsum.DPS, "  EHP:", nowsum.EHP, "  EHPDPS:", nowsum.EHPDPS, "  SPD:", nowsum.SPD)
+	for i := 1; i < 7; i++ {
+		fmt.Print(i, ": set:", (*MyMonsters[0].OldCRunes.Runes[i].p).Set_id, "  main:", Attrname[(*MyMonsters[0].OldCRunes.Runes[i].p).Pri_eff[0]], "+", (*MyMonsters[0].OldCRunes.Runes[i].p).Pri_eff[1])
+		if (*MyMonsters[0].OldCRunes.Runes[i].p).Prefix_eff[0] > 0 {
+			fmt.Print("  Pri:", Attrname[(*MyMonsters[0].OldCRunes.Runes[i].p).Prefix_eff[0]], "+", (*MyMonsters[0].OldCRunes.Runes[i].p).Prefix_eff[1])
+		}
+		fmt.Println("  sum:", MyMonsters[0].OldCRunes.Runes[i].sum,
+			(*MyMonsters[0].OldCRunes.Runes[i].p).Sec_eff)
+	}
 	var Cr CompleteRunes
 	search(Cr, 1, &MyMonsters[0])
 	maxsum := caculate(MyMonsters[0].NewCRunes, &MyMonsters[0])
-	fmt.Println("find:", maxsum)
+	fmt.Println("find:", maxsum.SUM, "  DPS:", maxsum.DPS, "  EHP:", maxsum.EHP, "  EHPDPS:", maxsum.EHPDPS, "  SPD:", maxsum.SPD)
 	for i := 1; i < 7; i++ {
-		//fmt.Println(i, ": set:", (*toprunes[i][maxrune[i]]).Set_id, " sum:", (*toprunes[i][maxrune[i]]).sum, (*(*toprunes[i][maxrune[i]]).p).Sec_eff)
+		fmt.Print(i, ": set:", (*MyMonsters[0].NewCRunes.Runes[i].p).Set_id, "  main:", Attrname[(*MyMonsters[0].NewCRunes.Runes[i].p).Pri_eff[0]], "+", (*MyMonsters[0].NewCRunes.Runes[i].p).Pri_eff[1])
+		if (*MyMonsters[0].NewCRunes.Runes[i].p).Prefix_eff[0] > 0 {
+			fmt.Print("  Pri:", Attrname[(*MyMonsters[0].NewCRunes.Runes[i].p).Prefix_eff[0]], "+", (*MyMonsters[0].NewCRunes.Runes[i].p).Prefix_eff[1])
+		}
+		fmt.Println("  sum:", MyMonsters[0].NewCRunes.Runes[i].sum,
+			(*MyMonsters[0].NewCRunes.Runes[i].p).Sec_eff)
 	}
 }
 func search(Cr CompleteRunes, slot int, mymon *MyMonster) {
@@ -275,28 +289,26 @@ func caculate(Cr CompleteRunes, monster *MyMonster) MonsterAttribute {
 	Attr.SPD = monster.mon.Spd + attrsum[8]
 	Attr.ACC = monster.mon.Accuracy + attrsum[12]
 	Attr.RES = monster.mon.Resist + attrsum[11]
-
-	var DPS float32
 	switch monsterworth.Type {
 	case 1:
-		DPS = float32(Attr.ATK) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
+		Attr.DPS = float32(Attr.ATK) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
 	case 2:
-		DPS = float32(Attr.ATK) * (float32(Attr.SPD)/420 + 0.5) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
+		Attr.DPS = float32(Attr.ATK) * (float32(Attr.SPD)/420 + 0.5) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
 	case 3:
-		DPS = (float32(Attr.ATK)*0.15 + float32(Attr.HP)*0.035) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
+		Attr.DPS = (float32(Attr.ATK)*0.15 + float32(Attr.HP)*0.035) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
 	case 4:
-		DPS = (float32(Attr.ATK)*0.4 + float32(Attr.DEF)*0.6) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
+		Attr.DPS = (float32(Attr.ATK)*0.4 + float32(Attr.DEF)*0.6) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
 	case 5:
-		DPS = (float32(Attr.ATK)*0.2 + 2000) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
+		Attr.DPS = (float32(Attr.ATK)*0.2 + 2000) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
 	case 6:
-		DPS = float32(Attr.ATK) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 / 10 * 2
+		Attr.DPS = float32(Attr.ATK) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 / 10 * 2
 	}
 	if sets[13] >= 4 {
-		DPS = DPS * 1.27
+		Attr.DPS = Attr.DPS * 1.27
 	}
-	var EHP float32 = float32(Attr.HP * (333 + Attr.DEF) / 287 / 150)
-	EHPDPS := float32(math.Sqrt(float64(DPS*EHP))) * 2
-	Attr.SUM = DPS*monsterworth.DPS + EHP*monsterworth.EHP + EHPDPS*monsterworth.EHPDPS + float32(Attr.SPD)*monsterworth.SPDFUNC + float32(Attr.HP)*monsterworth.HPFUNC + float32(Attr.ATK)*monsterworth.ATKFUNC + float32(Attr.DEF)*monsterworth.DEFFUNC + float32(Attr.CRI)*monsterworth.CRIFUNC
+	Attr.EHP = float32(Attr.HP * (333 + Attr.DEF) / 287 / 150)
+	Attr.EHPDPS = float32(math.Sqrt(float64(Attr.DPS*Attr.EHP))) * 2
+	Attr.SUM = Attr.DPS*monsterworth.DPS + Attr.EHP*monsterworth.EHP + Attr.EHPDPS*monsterworth.EHPDPS + float32(Attr.SPD)*monsterworth.SPDFUNC + float32(Attr.HP)*monsterworth.HPFUNC + float32(Attr.ATK)*monsterworth.ATKFUNC + float32(Attr.DEF)*monsterworth.DEFFUNC + float32(Attr.CRI)*monsterworth.CRIFUNC
 	if int32(Attr.ACC) > monsterworth.ACCTAR {
 		Attr.SUM += float32(monsterworth.ACCTAR)*monsterworth.ACC + float32(int32(Attr.ACC)-monsterworth.ACCTAR)*monsterworth.ACC/3
 	} else {
