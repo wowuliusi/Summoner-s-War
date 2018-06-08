@@ -11,8 +11,8 @@ type Worth struct {
 	DPS     float32   `json:"DPS"`
 	EHPDPS  float32   `json:"EHPDPS"`
 	SPDFUNC float32   `json:"SPDFUNC"`
-	ACCTAR  float32   `json:"ACCTAR"`
-	RESTAR  float32   `json:"RESTAR"`
+	ACCTAR  int32     `json:"ACCTAR"`
+	RESTAR  int32     `json:"RESTAR"`
 	HPFUNC  float32   `json:"HPFUNC"`
 	ATKFUNC float32   `json:"ATKFUNC"`
 	DEFFUNC float32   `json:"DEFFUNC"`
