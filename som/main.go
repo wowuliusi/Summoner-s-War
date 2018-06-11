@@ -388,6 +388,12 @@ func caculate(Cr CompleteRunes, monster *MyMonster) MonsterAttribute {
 	if Attr.CRI > 100 {
 		Attr.CRI = 100
 	}
+	if Attr.ACC > 100 {
+		Attr.ACC = 100
+	}
+	if Attr.RES > 100 {
+		Attr.RES = 100
+	}
 	Attr.CRIDMG = monster.mon.Critical_damage + attrsum[10]
 	Attr.SPD = monster.mon.Spd + attrsum[8]
 	Attr.ACC = monster.mon.Accuracy + attrsum[12]
@@ -423,12 +429,12 @@ func caculate(Cr CompleteRunes, monster *MyMonster) MonsterAttribute {
 	Attr.EHPDPS = float32(math.Sqrt(float64(Attr.DPS*Attr.EHP))) * 2
 	Attr.SUM = Attr.DPS*monster.monsterworth.DPS + Attr.EHP*monster.monsterworth.EHP + Attr.EHPDPS*monster.monsterworth.EHPDPS + float32(Attr.SPD)*monster.monsterworth.SPDFUNC + float32(Attr.HP)*monster.monsterworth.HPFUNC + float32(Attr.ATK)*monster.monsterworth.ATKFUNC + float32(Attr.DEF)*monster.monsterworth.DEFFUNC + float32(Attr.CRI)*monster.monsterworth.CRIFUNC
 	if int32(Attr.ACC) > monster.monsterworth.ACCTAR {
-		Attr.SUM += float32(monster.monsterworth.ACCTAR)*monster.monsterworth.ACC + float32(int32(Attr.ACC)-monster.monsterworth.ACCTAR)*monster.monsterworth.ACC/3
+		Attr.SUM += float32(monster.monsterworth.ACCTAR)*monster.monsterworth.ACC + float32(int32(Attr.ACC)-monster.monsterworth.ACCTAR)*monster.monsterworth.ACC/5
 	} else {
 		Attr.SUM += float32(Attr.ACC) * monster.monsterworth.ACC
 	}
 	if int32(Attr.RES) > monster.monsterworth.RESTAR {
-		Attr.SUM += float32(monster.monsterworth.RESTAR)*monster.monsterworth.RES + float32(int32(Attr.RES)-monster.monsterworth.RESTAR)*monster.monsterworth.RES/3
+		Attr.SUM += float32(monster.monsterworth.RESTAR)*monster.monsterworth.RES + float32(int32(Attr.RES)-monster.monsterworth.RESTAR)*monster.monsterworth.RES/5
 	} else {
 		Attr.SUM += float32(Attr.RES) * monster.monsterworth.RES
 	}
