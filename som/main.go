@@ -388,6 +388,9 @@ func caculate(Cr CompleteRunes, monster *MyMonster) MonsterAttribute {
 	if Attr.CRI > 100 {
 		Attr.CRI = 100
 	}
+	if Attr.CRI > 85 {
+		Attr.CRI = 85 + (Attr.CRI-85)/2
+	}
 	if Attr.ACC > 100 {
 		Attr.ACC = 100
 	}
