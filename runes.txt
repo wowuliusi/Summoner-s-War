@@ -1,0 +1,351 @@
+slot:3
+times:10
+set:暴走	main:DEF+160	Pri:RES+4	Attr:	HP%+24	SPD+12	DEF%+15	CRIDMG+5	From: 水瓦
+slot:1
+times:10
+set:斗志	main:ATK+118			Attr:	HP%+11	SPD+20	CRI+12	ACC+7	From: 水刺客
+slot:3
+times:9
+set:斗志	main:DEF+118	Pri:HP%+7	Attr:	SPD+20	DEF%+11	CRIDMG+5	CRI+15	From: 火人造人
+slot:5
+times:9
+set:斗志	main:HP+2448			Attr:	SPD+13	ATK%+25	CRIDMG+5	CRI+11	From: 火人造人
+slot:6
+times:7
+set:暴走	main:ATK%+63	Pri:DEF%+7	Attr:	SPD+10	HP%+11	CRIDMG+25	CRI+4	From: 水瓦
+slot:6
+times:6
+set:迅速	main:HP%+63	Pri:HP+136	Attr:	RES+14	SPD+21	CRIDMG+4	ACC+12	From: 水皮球
+slot:1
+times:6
+set:绝望	main:ATK+118	Pri:ACC+7	Attr:	HP+473	HP%+23	SPD+18	CRIDMG+4	From: 火精灵
+slot:2
+times:6
+set:斗志	main:DEF%+63			Attr:	HP%+24	RES+12	CRI+12	HP+313	From: 风龙骑
+slot:4
+times:5
+set:韧性	main:HP%+63	Pri:ATK+19	Attr:	CRI+6	RES+8	CRIDMG+5	SPD+30	From: 水皮球
+slot:5
+times:5
+set:绝望	main:HP+1920	Pri:HP%+6	Attr:	ATK+15	DEF%+16	ACC+15	SPD+19	From: 火精灵
+slot:1
+times:4
+set:暴走	main:ATK+160	Pri:HP%+6	Attr:	CRI+6	CRIDMG+16	SPD+9	ATK%+13	From: 水瓦
+slot:5
+times:4
+set:暴走	main:HP+2448	Pri:SPD+6	Attr:	CRI+16	ACC+5	CRIDMG+10	ATK%+10	From: 水瓦
+slot:3
+times:4
+set:意志	main:DEF+118	Pri:ACC+8	Attr:	CRI+13	SPD+16	CRIDMG+7	DEF%+6	From: 水姨夫
+slot:1
+times:4
+set:迅速	main:ATK+118			Attr:	HP%+18	SPD+19	CRI+5	ACC+4	From: 水皮球
+slot:2
+times:4
+set:斗志	main:SPD+42	Pri:ATK+19	Attr:	DEF%+14	CRI+10	DEF+51	CRIDMG+6	From: 水刺客
+slot:6
+times:4
+set:斗志	main:ATK%+63			Attr:	HP+978	CRI+6	SPD+7	DEF%+13	From: 水刺客
+slot:3
+times:4
+set:绝望	main:DEF+99	Pri:HP%+4	Attr:	CRI+4	SPD+18	ACC+10	DEF%+10	From: 火精灵
+slot:2
+times:4
+set:暴走	main:SPD+42			Attr:	HP%+15	RES+14	DEF+24	DEF%+13	From: 风舞女
+slot:4
+times:4
+set:意志	main:HP%+63	Pri:RES+6	Attr:	DEF%+26	ACC+6	SPD+10	ATK+15	From: 风方
+slot:4
+times:4
+set:反击	main:DEF%+63	Pri:CRI+5	Attr:	HP%+21	SPD+9	HP+820	RES+16	From: 风哈格
+slot:5
+times:4
+set:暴走	main:HP+2448	Pri:DEF%+5	Attr:	CRI+5	SPD+18	RES+8	ATK%+7	From: 风和尚
+slot:2
+times:3
+set:暴走	main:SPD+39	Pri:CRIDMG+5	Attr:	HP%+12	CRI+8	ATK%+9	RES+5	From:背包
+slot:1
+times:3
+set:意志	main:ATK+118	Pri:ACC+7	Attr:	CRI+4	SPD+5	ATK%+8	HP%+33	From:背包
+slot:4
+times:3
+set:斗志	main:CRIDMG+80	Pri:CRI+6	Attr:	SPD+9	HP+1348	HP%+14	RES+6	From: 水刺客
+slot:4
+times:3
+set:绝望	main:HP%+63	Pri:HP+160	Attr:	DEF+12	SPD+17	ATK+16	ACC+8	From: 火精灵
+slot:3
+times:3
+set:暴走	main:DEF+135	Pri:CRIDMG+4	Attr:	RES+11	SPD+13	CRI+15	DEF%+10	From: 火龙骑
+slot:1
+times:3
+set:保护	main:ATK+118			Attr:	CRI+4	SPD+21	ATK%+13	HP%+19	From: 火方
+slot:1
+times:3
+set:暴走	main:ATK+160	Pri:HP+352	Attr:	CRI+5	SPD+11	ATK%+26	ACC+5	From: 风猴子
+slot:5
+times:3
+set:暴走	main:HP+1530	Pri:ATK+10	Attr:	SPD+13	RES+5	HP%+11	DEF%+14	From: 风猴子
+slot:6
+times:3
+set:暴走	main:HP%+63			Attr:	SPD+13	DEF%+16	DEF+15	CRIDMG+6	From: 风和尚
+slot:2
+times:3
+set:反击	main:HP%+63	Pri:SPD+4	Attr:	ACC+6	CRI+19	ATK%+8	CRIDMG+6	From: 
+slot:4
+times:3
+set:斗志	main:DEF%+63	Pri:ATK+20	Attr:	RES+12	CRI+10	SPD+12	CRIDMG+9	From: 光人造人
+slot:2
+times:3
+set:绝望	main:SPD+39			Attr:	DEF+24	ACC+12	DEF%+17	ATK%+10	From: 暗莽
+slot:6
+times:2
+set:吸血	main:RES+21	Pri:ATK%+5	Attr:	CRIDMG+10	DEF%+6	DEF+11	SPD+6	From:背包
+slot:4
+times:2
+set:祝福	main:CRIDMG+80	Pri:HP%+5	Attr:	SPD+8	ATK%+21	CRI+13	DEF%+14	From: 水牛
+slot:4
+times:2
+set:意志	main:CRIDMG+80			Attr:	ATK%+24	SPD+9	HP+376	ACC+7	From: 水姨夫
+slot:2
+times:2
+set:暴走	main:SPD+42			Attr:	ATK+30	CRIDMG+19	DEF%+14	ACC+5	From: 水姨夫
+slot:2
+times:2
+set:吸血	main:ATK%+63	Pri:ATK+11	Attr:	HP%+15	RES+22	DEF%+19	DEF+13	From: 水妞
+slot:4
+times:2
+set:吸血	main:CRIDMG+80			Attr:	ATK%+20	ACC+16	DEF+30	HP%+8	From: 水妞
+slot:5
+times:2
+set:迅速	main:HP+1800			Attr:	CRIDMG+5	DEF%+20	SPD+19	ATK%+13	From: 水皮球
+slot:5
+times:2
+set:迅速	main:HP+1920	Pri:RES+6	Attr:	DEF%+9	SPD+17	ATK%+19	HP%+11	From: 火格
+slot:4
+times:2
+set:暴走	main:ATK%+63			Attr:	SPD+11	CRI+10	DEF%+6	ATK+28	From: 火舞女
+slot:4
+times:2
+set:暴走	main:DEF%+63			Attr:	SPD+6	RES+6	HP%+25	ACC+4	From: 火熊猫
+slot:2
+times:2
+set:迅速	main:SPD+42	Pri:ACC+4	Attr:	CRIDMG+20	RES+5	CRI+9	HP+645	From: 火人造人
+slot:4
+times:2
+set:迅速	main:CRIDMG+80	Pri:DEF%+8	Attr:	ATK%+24	CRI+5	HP%+14	SPD+4	From: 火人造人
+slot:1
+times:2
+set:迅速	main:ATK+160			Attr:	SPD+5	CRIDMG+4	CRI+19	ATK%+16	From: 火人造人
+slot:6
+times:2
+set:迅速	main:ATK%+63			Attr:	DEF%+10	CRI+18	ACC+8	RES+5	From: 火人造人
+slot:6
+times:2
+set:集中	main:ACC+64			Attr:	RES+5	CRIDMG+6	SPD+22	ATK+20	From: 风格
+slot:1
+times:2
+set:暴走	main:ATK+118			Attr:	CRIDMG+5	SPD+10	HP%+24	CRI+6	From: 风舞女
+slot:6
+times:2
+set:暴走	main:DEF%+63	Pri:CRI+6	Attr:	SPD+17	DEF+39	HP+353	ACC+4	From: 风猴子
+slot:3
+times:2
+set:反击	main:DEF+118	Pri:ACC+6	Attr:	HP%+25	SPD+15	RES+7	CRIDMG+5	From: 风哈格
+slot:3
+times:2
+set:暴走	main:DEF+160	Pri:HP+197	Attr:	SPD+14	CRIDMG+8	CRI+12	HP%+9	From: 风和尚
+slot:6
+times:2
+set:暴走	main:ACC+64	Pri:SPD+6	Attr:	HP+442	CRIDMG+10	DEF%+8	CRI+21	From: 
+slot:5
+times:2
+set:反击	main:HP+1800	Pri:CRI+5	Attr:	CRIDMG+5	SPD+17	ACC+12	RES+8	From: 
+slot:6
+times:1
+set:守护	main:DEF%+38	Pri:SPD+6	Attr:	CRI+17	ACC+6	ATK+19	From:背包
+slot:2
+times:1
+set:迅速	main:ATK%+63	Pri:DEF+11	Attr:	SPD+15	HP+427	HP%+8	ACC+6	From:背包
+slot:2
+times:1
+set:绝望	main:SPD+42	Pri:RES+5	Attr:	CRIDMG+9	ACC+5	ATK%+11	HP%+10	From:背包
+slot:3
+times:1
+set:绝望	main:DEF+118			Attr:	ACC+11	SPD+6	RES+7	HP%+26	From:背包
+slot:6
+times:1
+set:绝望	main:ATK%+47			Attr:	RES+17	DEF+18	CRI+11	DEF%+7	From:背包
+slot:1
+times:1
+set:吸血	main:ATK+118	Pri:ATK%+5	Attr:	ACC+16	RES+8	HP+151	CRI+21	From:背包
+slot:1
+times:1
+set:暴走	main:ATK+118	Pri:ACC+6	Attr:	SPD+14	ATK%+11	CRI+5	HP%+6	From:背包
+slot:5
+times:1
+set:意志	main:HP+1440	Pri:HP%+7	Attr:	DEF+14	CRI+9	ATK%+22	From:背包
+slot:2
+times:1
+set:反击	main:DEF%+38			Attr:	RES+5	ATK%+20	HP%+12	From:背包
+slot:2
+times:1
+set:反击	main:ATK%+47	Pri:HP%+5	Attr:	CRI+13	DEF%+8	DEF+11	RES+4	From:背包
+slot:6
+times:1
+set:反击	main:DEF%+63	Pri:ATK+20	Attr:	SPD+6	RES+16	HP+947	HP%+14	From:背包
+slot:3
+times:1
+set:斗志	main:DEF+118	Pri:SPD+4	Attr:	CRIDMG+7	RES+21	DEF%+18	ACC+7	From:背包
+slot:1
+times:1
+set:韧性	main:ATK+99	Pri:CRI+3	Attr:	HP+529	ACC+12	SPD+8	CRIDMG+5	From:背包
+slot:5
+times:1
+set:韧性	main:HP+1800			Attr:	DEF%+22	CRIDMG+7	ATK%+8	ACC+13	From:背包
+slot:2
+times:1
+set:覆灭	main:ATK%+63	Pri:DEF%+6	Attr:	CRI+8	SPD+15	ACC+11	HP%+12	From: 水瓦
+slot:1
+times:1
+set:吸血	main:ATK+118			Attr:	CRI+14	SPD+14	RES+8	CRIDMG+7	From: 水妞
+slot:5
+times:1
+set:绝望	main:HP+2448	Pri:CRIDMG+7	Attr:	CRI+23	SPD+8	RES+4	ACC+4	From: 水蝴蝶
+slot:2
+times:1
+set:迅速	main:SPD+42			Attr:	ATK+12	ACC+15	ATK%+12	CRI+6	From: 水皮球
+slot:5
+times:1
+set:斗志	main:HP+1800			Attr:	ATK%+26	SPD+14	ATK+14	CRI+10	From: 水刺客
+slot:4
+times:1
+set:暴走	main:CRI+58	Pri:ACC+8	Attr:	RES+18	CRIDMG+5	SPD+10	ATK%+5	From: 水和尚
+slot:6
+times:1
+set:守护	main:ACC+64	Pri:CRI+6	Attr:	SPD+21	HP+492	DEF%+15	HP%+12	From: 火精灵
+slot:4
+times:1
+set:覆灭	main:HP%+63	Pri:HP+338	Attr:	CRI+12	SPD+14	CRIDMG+4	DEF%+14	From: 火格
+slot:6
+times:1
+set:韧性	main:DEF%+63	Pri:CRIDMG+7	Attr:	SPD+16	ATK%+13	HP%+19	CRI+4	From: 火代理
+slot:5
+times:1
+set:韧性	main:HP+1530	Pri:ACC+7	Attr:	CRI+11	DEF%+18	HP%+10	CRIDMG+3	From: 火代理
+slot:4
+times:1
+set:暴走	main:HP%+63			Attr:	SPD+10	ATK%+12	ATK+34	DEF+18	From: 火代理
+slot:4
+times:1
+set:暴走	main:CRI+58			Attr:	HP%+24	RES+5	SPD+6	CRIDMG+4	From: 火吸
+slot:2
+times:1
+set:斗志	main:SPD+42	Pri:ATK%+5	Attr:	ATK+39	CRI+6	DEF+28	DEF%+20	From: 火吸
+slot:6
+times:1
+set:斗志	main:HP%+63	Pri:SPD+5	Attr:	CRIDMG+4	DEF%+5	DEF+41	ATK%+26	From: 火吸
+slot:6
+times:1
+set:守护	main:ATK%+63			Attr:	ACC+12	SPD+16	HP%+17	ATK+34	From: 火舞女
+slot:1
+times:1
+set:反击	main:ATK+118	Pri:ATK%+8	Attr:	RES+12	ACC+18	CRIDMG+11	SPD+5	From: 火哈
+slot:4
+times:1
+set:暴走	main:CRIDMG+80	Pri:HP%+8	Attr:	ATK%+11	HP+1174	RES+6	CRI+4	From: 火龙骑
+slot:5
+times:1
+set:意志	main:HP+1530			Attr:	DEF+34	RES+6	DEF%+13	SPD+23	From: 火方
+slot:2
+times:1
+set:反击	main:SPD+42	Pri:ACC+8	Attr:	DEF%+15	CRIDMG+12	HP+295	ATK+18	From: 火鞭
+slot:5
+times:1
+set:暴走	main:HP+1635	Pri:ACC+5	Attr:	SPD+14	DEF%+13	CRI+4	DEF+8	From: 火熊猫
+slot:2
+times:1
+set:保护	main:SPD+42	Pri:RES+4	Attr:	HP%+17	DEF%+23	ATK+34	HP+667	From: 火狗头
+slot:2
+times:1
+set:暴走	main:SPD+39	Pri:HP%+6	Attr:	ATK+14	ACC+16	HP+178	DEF%+7	From: 
+slot:3
+times:1
+set:意志	main:DEF+118			Attr:	HP+253	SPD+17	ACC+5	DEF%+7	From: 
+slot:2
+times:1
+set:迅速	main:SPD+42			Attr:	DEF%+13	DEF+15	RES+25	ATK%+7	From: 风格
+slot:3
+times:1
+set:迅速	main:DEF+118			Attr:	SPD+21	HP+145	RES+6	CRIDMG+5	From: 风格
+slot:2
+times:1
+set:集中	main:SPD+42	Pri:CRIDMG+4	Attr:	HP%+25	RES+12	DEF%+18	CRI+5	From: 风猴子
+slot:3
+times:1
+set:集中	main:DEF+160	Pri:SPD+5	Attr:	ACC+15	HP%+17	DEF%+20	HP+674	From: 风猴子
+slot:6
+times:1
+set:反击	main:ATK%+63	Pri:SPD+6	Attr:	DEF+11	ACC+16	CRI+12	HP+160	From: 风瑞奇
+slot:2
+times:1
+set:意志	main:HP%+63	Pri:DEF+18	Attr:	SPD+9	HP+553	CRIDMG+13	ACC+6	From: 风方
+slot:4
+times:1
+set:暴走	main:DEF%+63	Pri:SPD+4	Attr:	HP%+5	ACC+13	HP+192	CRIDMG+7	From: 风企鹅
+slot:4
+times:1
+set:激怒	main:CRIDMG+80			Attr:	ATK%+10	CRI+5	SPD+13	HP%+13	From: 风大锤
+slot:6
+times:1
+set:斗志	main:HP%+63			Attr:	DEF+14	RES+8	ACC+22	ATK%+11	From: 风龙骑
+slot:5
+times:1
+set:斗志	main:HP+1800			Attr:	CRIDMG+6	ACC+13	SPD+8	CRI+17	From: 风龙骑
+slot:3
+times:1
+set:斗志	main:DEF+99			Attr:	DEF%+14	CRIDMG+10	HP%+18	CRI+10	From: 风龙骑
+slot:5
+times:1
+set:斗志	main:HP+1800			Attr:	RES+9	ATK%+18	SPD+12	HP%+17	From: 光人造人
+slot:6
+times:1
+set:暴走	main:DEF%+63			Attr:	CRIDMG+19	HP%+6	HP+324	RES+4	From: 光人造人
+slot:6
+times:1
+set:绝望	main:HP%+63	Pri:DEF%+8	Attr:	SPD+14	RES+7	ATK+42	ATK%+12	From: 暗大象
+slot:1
+times:1
+set:集中	main:ATK+118	Pri:SPD+5	Attr:	ATK%+20	CRI+11	HP%+21	RES+8	From: 暗DK
+slot:6
+times:1
+set:韧性	main:HP%+63			Attr:	SPD+14	DEF%+26	RES+6	ACC+7	From: 暗DK
+slot:3
+times:1
+set:韧性	main:DEF+118	Pri:ACC+6	Attr:	CRIDMG+15	RES+8	SPD+13	HP%+13	From: 暗DK
+slot:4
+times:1
+set:韧性	main:DEF%+63			Attr:	CRIDMG+14	HP%+18	RES+13	SPD+4	From: 暗DK
+slot:3
+times:1
+set:保护	main:DEF+118			Attr:	CRI+6	SPD+9	HP%+26	ACC+13	From: 
+slot:3
+times:1
+set:反击	main:DEF+118			Attr:	CRIDMG+10	ACC+12	SPD+15	HP%+11	From: 
+slot:2
+times:1
+set:保护	main:HP%+63			Attr:	SPD+16	RES+7	HP+160	ATK%+6	From: 
+slot:6
+times:1
+set:保护	main:HP%+63			Attr:	CRIDMG+19	DEF%+6	DEF+37	ACC+8	From: 
+slot:5
+times:1
+set:保护	main:HP+1800			Attr:	DEF+11	CRI+12	SPD+15	CRIDMG+4	From: 
+slot:5
+times:1
+set:守护	main:HP+1800			Attr:	CRIDMG+6	ATK%+10	SPD+8	DEF%+29	From: 
+slot:4
+times:1
+set:猛攻	main:ATK%+63			Attr:	RES+15	CRI+10	CRIDMG+11	ATK+10	From: 
+slot:5
+times:1
+set:意志	main:HP+1800			Attr:	DEF%+8	ATK%+15	HP%+25	CRIDMG+14	From: 

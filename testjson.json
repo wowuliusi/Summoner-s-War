@@ -1,0 +1,37 @@
+{
+    "occupied_type": 2, 
+    "extra": 3, 
+    "sell_value": 22824, 
+    "pri_eff": [
+        4, 
+        11
+    ], 
+    "prefix_eff": [
+        8, 
+        5
+    ], 
+    "slot_no": 4, 
+    "rank": 3, 
+    "occupied_id": 0, 
+    "sec_eff": [
+        [
+            1, 
+            285, 
+            0, 
+            0
+        ], 
+        [
+            9, 
+            5, 
+            0, 
+            0
+        ]
+    ], 
+    "wizard_id": 15060791, 
+    "upgrade_curr": 0, 
+    "rune_id": 6791224852, 
+    "base_value": 456480, 
+    "class": 6, 
+    "set_id": 14, 
+    "upgrade_limit": 15
+}
