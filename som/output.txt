@@ -538,3 +538,20 @@ New:
 6: set:集中	main:ACC+64			Attr:	RES+5	CRIDMG+6	SPD+22	ATK+20	From: 风格
 33   风瑞奇   1101638879
 now: 2235.1426 	DPS: 1147.2427 	EHP: 359 	EHPDPS: 1283.5266 	SPD: 129 	HP: 14145 	ATK: 2106 	DEF: 760 	CRI: 56 	CRIDMG: 148 	ACC: 38 	RES: 33
+find: 2156.1426   DPS: 1041.0426   EHP: 441   EHPDPS: 1355.1381   SPD: 146   HP: 16437   ATK: 1384   DEF: 823   CRI: 81   CRIDMG: 152   ACC: 33   RES: 23
+Old:
+1: set:暴走	main:ATK+99	Pri:CRI+3	Attr:	RES+5	ATK%+31	SPD+3	CRIDMG+5	From: 风瑞奇
+2: set:反击	main:ATK%+63	Pri:ATK+10	Attr:	RES+13	SPD+13	CRI+4	DEF+17	From: 风瑞奇
+3: set:暴走	main:DEF+160			Attr:	CRIDMG+5	CRI+14	ACC+5	SPD+6	From: 风瑞奇
+4: set:暴走	main:CRIDMG+80			Attr:	ATK%+22	DEF+13	HP+299	HP%+7	From: 风瑞奇
+5: set:暴走	main:HP+1530	Pri:DEF+10	Attr:	SPD+5	ACC+17	CRIDMG+8	CRI+8	From: 风瑞奇
+6: set:反击	main:ATK%+63	Pri:SPD+6	Attr:	DEF+11	ACC+16	CRI+12	HP+160	From: 风瑞奇
+New:
+1: set:暴走	main:ATK+160			Attr:	CRI+17	ATK%+9	RES+8	ACC+7	From: 火龙骑
+2: set:暴走	main:SPD+39			Attr:	CRI+10	HP+446	CRIDMG+9	DEF%+6	From:背包
+3: set:暴走	main:DEF+160			Attr:	CRIDMG+5	CRI+14	ACC+5	SPD+6	From: 风瑞奇
+4: set:反击	main:CRIDMG+80			Attr:	CRI+11	HP%+17	ATK+15	ACC+4	From:背包
+5: set:暴走	main:HP+1530	Pri:DEF+10	Attr:	SPD+5	ACC+17	CRIDMG+8	CRI+8	From: 风瑞奇
+6: set:反击	main:ATK%+63			Attr:	DEF%+13	HP%+5	HP+674	CRI+6	From:背包
+34   风企鹅   1493239978
+now: 2140.8 	DPS: 419.55463 	EHP: 842 	EHPDPS: 1188.722 	SPD: 173 	HP: 23617 	ATK: 863 	DEF: 1203 	CRI: 35 	CRIDMG: 62 	ACC: 72 	RES: 15
