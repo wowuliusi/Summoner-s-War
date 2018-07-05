@@ -183,7 +183,7 @@ func main() {
 		MyMonsters = append(MyMonsters, montmp)
 	}
 
-	for id := 1; id < 44; id++ {
+	for id := 1; id < 53; id++ {
 		var monsterworth exports.Worth
 		var monster MyMonster
 
