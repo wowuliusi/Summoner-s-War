@@ -1,872 +1,157 @@
-1   水皮球   2278861141
-now: 2637.5112 	DPS: 619.3768 	EHP: 945 	EHPDPS: 1530.1125 	SPD: 290 	HP: 28632 	ATK: 975 	DEF: 1089 	CRI: 32 	CRIDMG: 64 	ACC: 35 	RES: 37
-find: 2637.5112   DPS: 619.3768   EHP: 945   EHPDPS: 1530.1125   SPD: 290   HP: 28632   ATK: 975   DEF: 1089   CRI: 32   CRIDMG: 64   ACC: 35   RES: 37
-Old:
-1: set:迅速	main:ATK+118			Attr:	HP%+18	SPD+19	CRI+5	ACC+4	From: 水皮球
-2: set:迅速	main:SPD+42			Attr:	DEF%+10	ACC+15	ATK%+12	CRI+6	From: 水皮球
-3: set:守护	main:DEF+118			Attr:	DEF%+11	ACC+4	SPD+28	HP%+11	From: 水皮球
-4: set:韧性	main:HP%+63	Pri:ATK+19	Attr:	CRI+6	RES+8	CRIDMG+5	SPD+30	From: 水皮球
-5: set:迅速	main:HP+1800			Attr:	CRIDMG+5	DEF%+20	SPD+19	ATK%+13	From: 水皮球
-6: set:迅速	main:HP%+63	Pri:HP+136	Attr:	RES+14	SPD+21	CRIDMG+4	ACC+12	From: 水皮球
-New:
-1: set:迅速	main:ATK+118			Attr:	HP%+18	SPD+19	CRI+5	ACC+4	From: 水皮球
-2: set:迅速	main:SPD+42			Attr:	DEF%+10	ACC+15	ATK%+12	CRI+6	From: 水皮球
-3: set:守护	main:DEF+118			Attr:	DEF%+11	ACC+4	SPD+28	HP%+11	From: 水皮球
-4: set:韧性	main:HP%+63	Pri:ATK+19	Attr:	CRI+6	RES+8	CRIDMG+5	SPD+30	From: 水皮球
-5: set:迅速	main:HP+1800			Attr:	CRIDMG+5	DEF%+20	SPD+19	ATK%+13	From: 水皮球
-6: set:迅速	main:HP%+63	Pri:HP+136	Attr:	RES+14	SPD+21	CRIDMG+4	ACC+12	From: 水皮球
-2   风和尚   1998233295
-now: 3222.6167 	DPS: 987.36707 	EHP: 1695 	EHPDPS: 2587.344 	SPD: 172 	HP: 50506 	ATK: 894 	DEF: 1112 	CRI: 48 	CRIDMG: 64 	ACC: 0 	RES: 38
-find: 3436.4294   DPS: 1167.5503   EHP: 1511   EHPDPS: 2656.4402   SPD: 189   HP: 45759   ATK: 797   DEF: 1089   CRI: 77   CRIDMG: 72   ACC: 0   RES: 46
-Old:
-1: set:祝福	main:ATK+118			Attr:	SPD+14	HP%+35	HP+535	RES+7	From: 风和尚
-2: set:暴走	main:HP%+63	Pri:DEF%+7	Attr:	SPD+4	CRI+16	DEF+50	HP+160	From: 风和尚
-3: set:暴走	main:DEF+160	Pri:HP+197	Attr:	SPD+14	CRIDMG+8	CRI+12	HP%+9	From: 风和尚
-4: set:祝福	main:HP%+63	Pri:RES+8	Attr:	ATK+53	SPD+13	DEF%+19	HP+186	From: 风和尚
-5: set:暴走	main:HP+2448	Pri:DEF%+5	Attr:	CRI+5	SPD+18	RES+8	ATK%+7	From: 风和尚
-6: set:暴走	main:HP%+63			Attr:	SPD+13	DEF%+16	DEF+15	CRIDMG+6	From: 风和尚
-New:
-1: set:祝福	main:ATK+118			Attr:	SPD+14	HP%+35	HP+535	RES+7	From: 风和尚
-2: set:暴走	main:SPD+39	Pri:RES+7	Attr:	CRI+4	HP%+26	DEF+8	HP+251	From: 水和尚
-3: set:暴走	main:DEF+160	Pri:RES+4	Attr:	HP%+24	SPD+12	DEF%+15	CRIDMG+5	From: 水瓦
-4: set:暴走	main:CRI+58			Attr:	HP%+24	RES+5	SPD+6	CRIDMG+4	From: 火吸
-5: set:祝福	main:HP+1800	Pri:CRIDMG+7	Attr:	DEF%+19	HP%+28	SPD+9	RES+8	From: 风舞女
-6: set:暴走	main:HP%+63			Attr:	SPD+13	DEF%+16	DEF+15	CRIDMG+6	From: 风和尚
-3   水姨夫   1325114940
-now: 2254.233 	DPS: 1743.5972 	EHP: 506 	EHPDPS: 1878.5741 	SPD: 189 	HP: 16309 	ATK: 1770 	DEF: 1004 	CRI: 71 	CRIDMG: 160 	ACC: 41 	RES: 15
-find: 2585.87   DPS: 2257.7837   EHP: 455   EHPDPS: 2027.1079   SPD: 189   HP: 16852   ATK: 1962   DEF: 830   CRI: 77   CRIDMG: 193   ACC: 20   RES: 20
-Old:
-1: set:暴走	main:ATK+160	Pri:ATK%+5	Attr:	CRI+9	ACC+15	SPD+14	CRIDMG+4	From: 水姨夫
-2: set:暴走	main:SPD+42			Attr:	ATK+30	CRIDMG+19	DEF%+14	ACC+5	From: 水姨夫
-3: set:意志	main:DEF+118	Pri:ACC+8	Attr:	CRI+13	SPD+16	CRIDMG+7	DEF%+6	From: 水姨夫
-4: set:意志	main:CRIDMG+80			Attr:	ATK%+24	SPD+9	HP+376	ACC+7	From: 水姨夫
-5: set:暴走	main:HP+1800			Attr:	SPD+8	CRI+14	HP%+11	DEF+19	From: 水姨夫
-6: set:暴走	main:ATK%+63	Pri:CRI+5	Attr:	DEF%+13	DEF+37	ACC+6	HP%+13	From: 水姨夫
-New:
-1: set:暴走	main:ATK+160	Pri:HP%+6	Attr:	CRI+6	CRIDMG+16	SPD+9	ATK%+13	From: 水瓦
-2: set:暴走	main:SPD+39	Pri:CRIDMG+5	Attr:	HP%+12	CRI+8	ATK%+9	RES+5	From: 水熊猫
-3: set:意志	main:DEF+118	Pri:ACC+8	Attr:	CRI+13	SPD+16	CRIDMG+7	DEF%+6	From: 水姨夫
-4: set:意志	main:CRIDMG+80			Attr:	ATK%+24	SPD+9	HP+376	ACC+7	From: 水姨夫
-5: set:暴走	main:HP+2448	Pri:SPD+6	Attr:	CRI+16	ACC+5	CRIDMG+10	ATK%+10	From: 水瓦
-6: set:暴走	main:ATK%+63	Pri:DEF%+7	Attr:	SPD+10	HP%+11	CRIDMG+25	CRI+4	From: 水瓦
-4   水牛   1062382860
-now: 2245.9893 	DPS: 2022.3893 	EHP: 386 	EHPDPS: 1767.0792 	SPD: 176 	HP: 13646 	ATK: 2477 	DEF: 885 	CRI: 83 	CRIDMG: 214 	ACC: 9 	RES: 37
-find: 2799.6414   DPS: 2470.8413   EHP: 418   EHPDPS: 2032.5469   SPD: 218   HP: 13832   ATK: 2459   DEF: 970   CRI: 87   CRIDMG: 171   ACC: 9   RES: 15
-Old:
-1: set:忍耐	main:ATK+160			Attr:	ATK%+22	SPD+12	CRI+11	CRIDMG+11	From: 水牛
-2: set:激怒	main:SPD+42	Pri:CRI+5	Attr:	CRIDMG+18	ATK%+18	ACC+9	ATK+22	From: 水牛
-3: set:激怒	main:DEF+160	Pri:HP+213	Attr:	SPD+13	RES+16	CRI+9	CRIDMG+7	From: 水牛
-4: set:祝福	main:CRIDMG+80	Pri:HP%+5	Attr:	SPD+8	ATK%+21	CRI+13	DEF%+14	From: 水牛
-5: set:激怒	main:HP+2448			Attr:	ATK%+28	CRI+6	CRIDMG+8	RES+6	From: 水牛
-6: set:激怒	main:ATK%+63			Attr:	HP+606	CRI+9	SPD+6	DEF%+13	From: 水牛
-New:
-1: set:忍耐	main:ATK+160			Attr:	ATK%+22	SPD+12	CRI+11	CRIDMG+11	From: 水牛
-2: set:激怒	main:SPD+42	Pri:CRI+5	Attr:	CRIDMG+18	ATK%+18	ACC+9	ATK+22	From: 水牛
-3: set:斗志	main:DEF+118	Pri:HP%+7	Attr:	SPD+20	DEF%+11	CRIDMG+5	CRI+15	From: 火人造人
-4: set:祝福	main:CRIDMG+80	Pri:HP%+5	Attr:	SPD+8	ATK%+21	CRI+13	DEF%+14	From: 水牛
-5: set:斗志	main:HP+1800			Attr:	ATK%+26	SPD+14	CRIDMG+7	CRI+10	From: 水刺客
-6: set:发扬	main:ATK%+63			Attr:	HP+313	SPD+27	CRI+6	DEF%+17	From:背包
-5   火人造人   1950401450
-now: 2063.4692 	DPS: 1899.2992 	EHP: 471 	EHPDPS: 1891.6342 	SPD: 210 	HP: 15453 	ATK: 2036 	DEF: 981 	CRI: 88 	CRIDMG: 164 	ACC: 12 	RES: 25
-find: 1981.7744   DPS: 1807.8606   EHP: 467   EHPDPS: 1837.6843   SPD: 205   HP: 16168   ATK: 2036   DEF: 911   CRI: 83   CRIDMG: 170   ACC: 12   RES: 31
-Old:
-1: set:迅速	main:ATK+160			Attr:	SPD+5	CRIDMG+4	CRI+19	ATK%+16	From: 火人造人
-2: set:迅速	main:SPD+42	Pri:ACC+4	Attr:	CRIDMG+20	RES+5	CRI+9	HP+645	From: 火人造人
-3: set:斗志	main:DEF+118	Pri:HP%+7	Attr:	SPD+20	DEF%+11	CRIDMG+5	CRI+15	From: 火人造人
-4: set:迅速	main:CRIDMG+80	Pri:DEF%+8	Attr:	ATK%+24	CRI+5	HP%+14	SPD+4	From: 火人造人
-5: set:斗志	main:HP+2448			Attr:	SPD+13	ATK%+25	CRIDMG+5	CRI+11	From: 火人造人
-6: set:迅速	main:ATK%+63			Attr:	DEF%+10	CRI+18	ACC+8	RES+5	From: 火人造人
-New:
-1: set:迅速	main:ATK+160			Attr:	SPD+5	CRIDMG+4	CRI+19	ATK%+16	From: 火人造人
-2: set:迅速	main:SPD+42	Pri:ACC+4	Attr:	CRIDMG+20	RES+5	CRI+9	HP+645	From: 火人造人
-3: set:斗志	main:DEF+118	Pri:RES+6	Attr:	SPD+15	HP%+14	CRIDMG+11	CRI+6	From: 水刺客
-4: set:迅速	main:CRIDMG+80	Pri:DEF%+8	Attr:	ATK%+24	CRI+5	HP%+14	SPD+4	From: 火人造人
-5: set:斗志	main:HP+2448			Attr:	SPD+13	ATK%+25	CRIDMG+5	CRI+11	From: 火人造人
-6: set:迅速	main:ATK%+63			Attr:	DEF%+10	CRI+18	ACC+8	RES+5	From: 火人造人
-6   水熊猫   3119602897
-now: 2576.976 	DPS: 884.5622 	EHP: 1039 	EHPDPS: 1917.3524 	SPD: 207 	HP: 36128 	ATK: 1001 	DEF: 906 	CRI: 46 	CRIDMG: 67 	ACC: 44 	RES: 30
-find: 2882.5615   DPS: 851.0759   EHP: 1400   EHPDPS: 2183.1228   SPD: 206   HP: 39987   ATK: 997   DEF: 1175   CRI: 25   CRIDMG: 62   ACC: 43   RES: 34
-Old:
-1: set:暴走	main:ATK+118	Pri:ACC+6	Attr:	SPD+14	ATK%+11	CRI+5	HP%+6	From: 水熊猫
-2: set:暴走	main:SPD+39	Pri:CRIDMG+5	Attr:	HP%+12	CRI+8	ATK%+9	RES+5	From: 水熊猫
-3: set:暴走	main:DEF+118			Attr:	CRI+9	SPD+15	RES+5	ACC+7	From: 水熊猫
-4: set:祝福	main:HP%+63	Pri:DEF+14	Attr:	SPD+20	HP+218	DEF%+8	RES+5	From: 水熊猫
-5: set:祝福	main:HP+1800			Attr:	ACC+6	CRIDMG+12	SPD+13	HP%+5	From: 水熊猫
-6: set:暴走	main:HP%+63	Pri:DEF%+5	Attr:	ATK+25	SPD+10	CRI+9	ATK%+6	From: 水熊猫
-New:
-1: set:保护	main:ATK+118			Attr:	CRI+4	SPD+21	ATK%+13	HP%+19	From: 火方
-2: set:暴走	main:SPD+42			Attr:	HP%+15	RES+14	DEF+24	DEF%+13	From: 风舞女
-3: set:保护	main:DEF+118			Attr:	CRI+6	SPD+9	HP%+26	ACC+13	From: 
-4: set:暴走	main:HP%+63	Pri:CRIDMG+7	Attr:	SPD+11	ATK%+8	DEF%+19	ACC+5	From: 水和尚
-5: set:暴走	main:HP+1530	Pri:ATK+10	Attr:	SPD+13	RES+5	HP%+11	DEF%+14	From: 风猴子
-6: set:暴走	main:HP%+63	Pri:DEF%+7	Attr:	HP+293	ATK+43	SPD+14	CRIDMG+5	From: 风舞女
-7   水和尚   2519661094
-now: 2145.4814 	DPS: 895.971 	EHP: 1287 	EHPDPS: 2147.6636 	SPD: 175 	HP: 40859 	ATK: 1005 	DEF: 1024 	CRI: 61 	CRIDMG: 66 	ACC: 5 	RES: 34
-find: 2507.1372   DPS: 652.98944   EHP: 1540   EHPDPS: 2005.596   SPD: 185   HP: 42756   ATK: 903   DEF: 1218   CRI: 24   CRIDMG: 79   ACC: 39   RES: 40
-Old:
-1: set:暴走	main:ATK+118			Attr:	HP%+20	ATK%+11	CRIDMG+9	SPD+3	From: 水和尚
-2: set:暴走	main:SPD+39	Pri:RES+7	Attr:	CRI+4	HP%+26	DEF+8	HP+251	From: 水和尚
-3: set:暴走	main:DEF+118			Attr:	HP%+12	SPD+11	CRI+4	HP+219	From: 水和尚
-4: set:暴走	main:HP%+63	Pri:CRIDMG+7	Attr:	SPD+11	ATK%+8	DEF%+19	ACC+5	From: 水和尚
-5: set:刀刃	main:HP+2448			Attr:	CRI+8	SPD+15	RES+12	ATK%+14	From: 水和尚
-6: set:刀刃	main:HP%+63	Pri:ATK%+5	Attr:	DEF%+11	CRI+18	HP+539	ATK+12	From: 水和尚
-New:
-1: set:意志	main:ATK+118	Pri:ACC+7	Attr:	CRI+4	SPD+5	ATK%+15	HP%+33	From:背包
-2: set:保护	main:SPD+42	Pri:RES+4	Attr:	HP%+17	DEF%+23	ATK+34	HP+667	From: 火狗头
-3: set:反击	main:DEF+118	Pri:ACC+6	Attr:	HP%+25	SPD+15	RES+7	CRIDMG+5	From: 风哈格
-4: set:意志	main:HP%+63	Pri:RES+6	Attr:	DEF%+26	ACC+6	SPD+10	ATK+15	From: 风方
-5: set:反击	main:HP+1800	Pri:CRI+5	Attr:	CRIDMG+5	SPD+17	ACC+12	RES+8	From: 光犬
-6: set:保护	main:HP%+63			Attr:	CRIDMG+19	DEF%+6	DEF+37	ACC+8	From: 
-8   风舞女   974506093
-now: 3031.8027 	DPS: 546.1369 	EHP: 1240 	EHPDPS: 1645.8551 	SPD: 204 	HP: 37517 	ATK: 960 	DEF: 1091 	CRI: 31 	CRIDMG: 67 	ACC: 6 	RES: 90
-find: 3190.9673   DPS: 494.7561   EHP: 1149   EHPDPS: 1507.9453   SPD: 174   HP: 39259   ATK: 1057   DEF: 928   CRI: 33   CRIDMG: 50   ACC: 0   RES: 59
-Old:
-1: set:暴走	main:ATK+118			Attr:	CRIDMG+5	SPD+10	HP%+24	CRI+6	From: 风舞女
-2: set:暴走	main:SPD+42			Attr:	HP%+15	RES+14	DEF+24	DEF%+13	From: 风舞女
-3: set:暴走	main:DEF+118	Pri:HP%+7	Attr:	CRI+4	DEF%+17	RES+21	SPD+10	From: 风舞女
-4: set:祝福	main:HP%+63	Pri:CRI+6	Attr:	ATK%+15	SPD+18	RES+7	ACC+6	From: 风舞女
-5: set:祝福	main:HP+1800	Pri:CRIDMG+7	Attr:	DEF%+19	HP%+28	SPD+9	RES+8	From: 风舞女
-6: set:暴走	main:HP%+63	Pri:DEF%+7	Attr:	HP+293	ATK+43	SPD+14	CRIDMG+5	From: 风舞女
-New:
-1: set:暴走	main:ATK+99			Attr:	SPD+5	RES+4	HP%+29	HP+170	From: 火代理
-2: set:保护	main:HP%+63			Attr:	SPD+16	RES+7	HP+160	ATK%+6	From: 
-3: set:保护	main:DEF+160	Pri:HP+160	Attr:	DEF%+19	SPD+14	HP%+11	CRI+4	From: 火狗头
-4: set:暴走	main:HP%+63			Attr:	SPD+10	ATK%+12	ATK+34	DEF+18	From: 火代理
-5: set:暴走	main:HP+2448	Pri:DEF%+5	Attr:	CRI+5	SPD+18	RES+8	ATK%+7	From: 风和尚
-6: set:暴走	main:HP%+63	Pri:DEF%+5	Attr:	ATK+25	SPD+10	CRI+9	ATK%+6	From: 水熊猫
-9   火龙骑   1384644876
-now: 1786.4691 	DPS: 1481.8107 	EHP: 502 	EHPDPS: 1724.9568 	SPD: 125 	HP: 16472 	ATK: 2270 	DEF: 980 	CRI: 76 	CRIDMG: 166 	ACC: 11 	RES: 77
-find: 2123.4668   DPS: 1917.1427   EHP: 490   EHPDPS: 1938.4529   SPD: 180   HP: 19414   ATK: 2010   DEF: 755   CRI: 78   CRIDMG: 166   ACC: 9   RES: 44
-Old:
-1: set:暴走	main:ATK+160			Attr:	CRI+17	ATK%+9	RES+8	ACC+7	From: 火龙骑
-2: set:绝望	main:ATK%+63			Attr:	CRIDMG+19	SPD+7	CRI+8	DEF%+14	From: 火龙骑
-3: set:暴走	main:DEF+135	Pri:CRIDMG+4	Attr:	RES+11	SPD+13	CRI+15	DEF%+10	From: 火龙骑
-4: set:暴走	main:CRIDMG+80	Pri:HP%+8	Attr:	ATK%+11	HP+1174	RES+6	CRI+4	From: 火龙骑
-5: set:暴走	main:HP+1530	Pri:ACC+4	Attr:	CRI+5	CRIDMG+13	ATK%+7	DEF%+24	From: 火龙骑
-6: set:忍耐	main:ATK%+63			Attr:	RES+12	SPD+5	CRI+12	HP%+12	From: 火龙骑
-New:
-1: set:暴走	main:ATK+160	Pri:HP+352	Attr:	CRI+5	SPD+11	ATK%+26	ACC+5	From: 风猴子
-2: set:守护	main:SPD+42	Pri:ATK+16	Attr:	CRIDMG+13	HP%+18	CRI+10	ATK%+9	From: 水蝴蝶
-3: set:暴走	main:DEF+160	Pri:HP+197	Attr:	SPD+14	CRIDMG+8	CRI+12	HP%+9	From: 风和尚
-4: set:暴走	main:CRIDMG+80			Attr:	ATK%+22	DEF+13	HP+299	HP%+7	From: 风瑞奇
-5: set:绝望	main:HP+2448	Pri:CRIDMG+7	Attr:	CRI+23	SPD+8	RES+4	ACC+4	From: 水蝴蝶
-6: set:暴走	main:ATK%+50	Pri:SPD+5	Attr:	CRI+13	HP%+12	CRIDMG+8	DEF+11	From:背包
-10   水蝴蝶   1932694748
-now: 2525.1235 	DPS: 1547.3116 	EHP: 506 	EHPDPS: 1769.6776 	SPD: 191 	HP: 17416 	ATK: 1927 	DEF: 918 	CRI: 81 	CRIDMG: 162 	ACC: 13 	RES: 36
-find: 2805.1455   DPS: 1111.7859   EHP: 549   EHPDPS: 1562.5242   SPD: 212   HP: 16811   ATK: 1722   DEF: 1073   CRI: 90   CRIDMG: 75   ACC: 60   RES: 31
-Old:
-1: set:绝望	main:ATK+160	Pri:SPD+6	Attr:	ATK%+28	HP%+13	CRI+5	RES+4	From: 水蝴蝶
-2: set:守护	main:SPD+42	Pri:ATK+16	Attr:	CRIDMG+13	HP%+18	CRI+10	ATK%+9	From: 水蝴蝶
-3: set:绝望	main:DEF+118			Attr:	CRIDMG+12	CRI+4	SPD+19	ACC+9	From: 水蝴蝶
-4: set:绝望	main:CRIDMG+80	Pri:ATK+10	Attr:	RES+13	CRI+9	HP%+14	DEF+13	From: 水蝴蝶
-5: set:绝望	main:HP+2448	Pri:CRIDMG+7	Attr:	CRI+23	SPD+8	RES+4	ACC+4	From: 水蝴蝶
-6: set:守护	main:ATK%+63			Attr:	SPD+18	ATK+29	DEF+13	HP%+9	From: 水蝴蝶
-New:
-1: set:绝望	main:ATK+118	Pri:ACC+7	Attr:	HP+473	HP%+23	SPD+18	CRIDMG+4	From: 火精灵
-2: set:绝望	main:SPD+42	Pri:RES+5	Attr:	CRIDMG+9	ACC+5	ATK%+11	HP%+10	From:背包
-3: set:绝望	main:DEF+118			Attr:	CRIDMG+12	CRI+4	SPD+19	ACC+9	From: 水蝴蝶
-4: set:意志	main:CRI+43	Pri:ATK%+7	Attr:	SPD+12	DEF%+12	ACC+12	HP%+14	From:背包
-5: set:意志	main:HP+1530			Attr:	DEF+34	RES+6	DEF%+13	SPD+23	From: 火方
-6: set:绝望	main:ATK%+63	Pri:ATK+13	Attr:	CRI+4	ACC+27	RES+5	DEF%+13	From: 
-11   火奥   3164369096
-now: 782.07025 	DPS: 137.40454 	EHP: 267 	EHPDPS: 383.0771 	SPD: 100 	HP: 11370 	ATK: 703 	DEF: 681 	CRI: 15 	CRIDMG: 50 	ACC: 25 	RES: 15
-find: 2984.0059   DPS: 468.11523   EHP: 1270   EHPDPS: 1542.0848   SPD: 214   HP: 35123   ATK: 1060   DEF: 1224   CRI: 27   CRIDMG: 50   ACC: 57   RES: 34
+47   火沙漠   2478730187
+now: 736.6239 	DPS: 138.159 	EHP: 263 	EHPDPS: 381.2391 	SPD: 99 	HP: 11205 	ATK: 714 	DEF: 681 	CRI: 15 	CRIDMG: 50 	ACC: 25 	RES: 15
+find: 2448.52   DPS: 411.75775   EHP: 1216   EHPDPS: 1415.1996   SPD: 186   HP: 26963   ATK: 1008   DEF: 1609   CRI: 33   CRIDMG: 63   ACC: 56   RES: 47
 Old:
 New:
-1: set:绝望	main:ATK+118			Attr:	SPD+18	HP+624	HP%+14	ATK%+8	From: 暗莽
-2: set:应报	main:SPD+29	Pri:RES+3	Attr:	HP+342	CRI+8	HP%+22	ACC+7	From:背包
-3: set:绝望	main:DEF+99	Pri:HP%+4	Attr:	CRI+4	SPD+18	ACC+10	DEF%+10	From: 火精灵
-4: set:应报	main:HP%+63			Attr:	DEF%+26	SPD+6	RES+9	HP+783	From: 火方
-5: set:绝望	main:HP+1920	Pri:HP%+6	Attr:	ATK+15	DEF%+16	ACC+15	SPD+19	From: 火精灵
-6: set:绝望	main:HP%+63	Pri:DEF%+8	Attr:	SPD+14	RES+7	ATK+42	ATK%+12	From: 暗大象
-12   光丁   3146467485
-now: 2151.4631 	DPS: 610.1389 	EHP: 1482 	EHPDPS: 1901.8158 	SPD: 183 	HP: 38124 	ATK: 980 	DEF: 1341 	CRI: 39 	CRIDMG: 61 	ACC: 27 	RES: 35
-find: 2601.0593   DPS: 492.56607   EHP: 1389   EHPDPS: 1654.2965   SPD: 189   HP: 30115   ATK: 822   DEF: 1653   CRI: 25   CRIDMG: 87   ACC: 32   RES: 35
+1: set:绝望	main:ATK+99	Pri:RES+6	Attr:	HP%+17	SPD+11	ACC+6	CRI+9	From:背包
+2: set:保护	main:SPD+42	Pri:ATK+14	Attr:	DEF%+13	CRIDMG+9	ACC+18	CRI+5	From:背包
+3: set:保护	main:DEF+118	Pri:DEF%+8	Attr:	HP%+21	SPD+11	CRI+4	HP+257	From:背包
+4: set:绝望	main:DEF%+63	Pri:HP+280	Attr:	RES+19	HP%+5	DEF+26	ACC+7	From: 
+5: set:绝望	main:HP+1800	Pri:ATK+18	Attr:	DEF%+17	SPD+9	CRIDMG+4	HP%+8	From:背包
+6: set:绝望	main:HP%+63	Pri:DEF%+8	Attr:	SPD+14	RES+7	ATK+42	ATK%+12	From:背包
+48   火上   1181560653
+now: 1224.8196 	DPS: 224.39041 	EHP: 714 	EHPDPS: 800.5367 	SPD: 174 	HP: 25728 	ATK: 620 	DEF: 863 	CRI: 24 	CRIDMG: 60 	ACC: 6 	RES: 29
+find: 1969.5953   DPS: 315.90573   EHP: 1103   EHPDPS: 1180.583   SPD: 205   HP: 25922   ATK: 697   DEF: 1499   CRI: 27   CRIDMG: 80   ACC: 8   RES: 59
 Old:
-1: set:决心	main:ATK+99			Attr:	ACC+7	SPD+9	ATK%+23	HP%+20	From: 光丁
-2: set:决心	main:SPD+29	Pri:ATK+10	Attr:	DEF%+13	ACC+7	HP%+29	CRIDMG+5	From: 光丁
-3: set:反击	main:DEF+118			Attr:	CRI+10	SPD+18	ACC+8	DEF%+8	From: 光丁
-4: set:忍耐	main:HP%+63			Attr:	DEF%+16	HP+720	CRI+10	ATK%+11	From: 光丁
-5: set:忍耐	main:HP+1920	Pri:RES+5	Attr:	DEF+11	HP%+12	SPD+15	CRI+4	From: 光丁
-6: set:反击	main:HP%+63			Attr:	ACC+5	DEF%+27	CRIDMG+6	ATK+11	From: 光丁
+2: set:吸血	main:SPD+42	Pri:RES+8	Attr:	HP%+15	CRIDMG+10	DEF%+14	HP+231	From: 火上
+5: set:迅速	main:HP+1800	Pri:ACC+6	Attr:	HP%+19	DEF+53	SPD+10	RES+6	From: 火上
+6: set:迅速	main:HP%+63			Attr:	CRI+9	SPD+11	DEF%+11	ATK%+13	From: 火上
 New:
-1: set:意志	main:ATK+99	Pri:RES+4	Attr:	SPD+14	CRIDMG+9	CRI+5	ATK%+7	From:背包
-2: set:反击	main:SPD+42	Pri:ACC+8	Attr:	DEF%+15	CRIDMG+12	HP+295	ATK+18	From: 火鞭
-3: set:反击	main:DEF+118			Attr:	CRIDMG+10	ACC+12	SPD+15	HP%+11	From: 
-4: set:反击	main:DEF%+63	Pri:CRI+5	Attr:	HP%+21	SPD+9	HP+820	RES+16	From: 风哈格
-5: set:意志	main:HP+1800			Attr:	SPD+7	HP%+23	ACC+7	DEF+30	From:背包
-6: set:反击	main:HP%+63			Attr:	ACC+5	DEF%+27	CRIDMG+6	ATK+11	From: 光丁
-13   水海盗   1135924797
-now: 2423.401 	DPS: 657.7095 	EHP: 756 	EHPDPS: 1410.2885 	SPD: 209 	HP: 27643 	ATK: 1153 	DEF: 845 	CRI: 28 	CRIDMG: 65 	ACC: 81 	RES: 32
-find: 2742.0146   DPS: 1093.1344   EHP: 486   EHPDPS: 1457.7562   SPD: 215   HP: 19039   ATK: 1510   DEF: 767   CRI: 58   CRIDMG: 79   ACC: 81   RES: 30
+1: set:保护	main:ATK+99	Pri:CRI+3	Attr:	SPD+9	HP%+14	CRIDMG+7	ACC+5	From:背包
+2: set:吸血	main:SPD+42	Pri:RES+8	Attr:	HP%+15	CRIDMG+10	DEF%+14	HP+231	From: 火上
+3: set:意志	main:DEF+118			Attr:	RES+6	SPD+14	CRIDMG+7	CRI+5	From:背包
+4: set:忍耐	main:HP%+63			Attr:	SPD+13	CRI+4	RES+17	DEF%+15	From:背包
+5: set:意志	main:HP+1530	Pri:ATK+13	Attr:	DEF%+11	SPD+10	DEF+24	ACC+3	From:背包
+6: set:保护	main:DEF%+63	Pri:HP%+6	Attr:	RES+13	SPD+6	HP+475	CRIDMG+6	From:背包
+49   风傀儡   3201304462
+now: 252.94016 	DPS: 121.46718 	EHP: 245 	EHPDPS: 345.01862 	SPD: 92 	HP: 10215 	ATK: 428 	DEF: 703 	CRI: 15 	CRIDMG: 50 	ACC: 0 	RES: 15
+find: 1844.5991   DPS: 454.99698   EHP: 1233   EHPDPS: 1498.0137   SPD: 114   HP: 24593   ATK: 810   DEF: 1826   CRI: 42   CRIDMG: 65   ACC: 22   RES: 33
 Old:
-1: set:迅速	main:ATK+118			Attr:	ATK%+11	ACC+9	HP%+18	SPD+15	From: 水海盗
-2: set:暴走	main:SPD+42			Attr:	CRI+10	RES+10	HP+553	HP%+13	From: 水海盗
-3: set:暴走	main:DEF+99	Pri:HP+240	Attr:	SPD+13	HP%+14	CRI+3	RES+7	From: 水海盗
-4: set:刀刃	main:HP%+63	Pri:ACC+8	Attr:	SPD+17	ATK%+8	DEF%+15	DEF+19	From: 水海盗
-5: set:暴走	main:HP+1530			Attr:	DEF%+4	CRIDMG+10	SPD+14	ATK+37	From: 水海盗
-6: set:暴走	main:ACC+64			Attr:	ATK%+15	DEF%+21	CRIDMG+5	HP%+7	From: 水海盗
-New:
-1: set:斗志	main:ATK+118			Attr:	HP%+11	SPD+20	CRI+12	ACC+7	From: 水刺客
-2: set:暴走	main:SPD+42			Attr:	ATK+30	CRIDMG+19	DEF%+14	ACC+5	From: 水姨夫
-3: set:暴走	main:DEF+99			Attr:	HP%+12	RES+6	SPD+16	ACC+5	From: 火熊猫
-4: set:暴走	main:ATK%+63			Attr:	SPD+11	CRI+10	DEF%+6	ATK+28	From: 火舞女
-5: set:斗志	main:HP+1800			Attr:	RES+9	ATK%+18	SPD+12	HP%+17	From: 光人造人
-6: set:暴走	main:ACC+64	Pri:SPD+6	Attr:	HP+442	CRIDMG+10	DEF%+8	CRI+21	From: 光犬
-14   火狗头   2173485759
-now: 2261.7593 	DPS: 669.118 	EHP: 1271 	EHPDPS: 1844.3958 	SPD: 207 	HP: 35744 	ATK: 982 	DEF: 1198 	CRI: 46 	CRIDMG: 59 	ACC: 6 	RES: 33
-find: 2456.7793   DPS: 568.8604   EHP: 1025   EHPDPS: 1527.196   SPD: 190   HP: 30417   ATK: 1043   DEF: 1119   CRI: 42   CRIDMG: 83   ACC: 45   RES: 32
-Old:
-1: set:迅速	main:ATK+160	Pri:SPD+4	Attr:	HP%+22	CRIDMG+9	ATK%+11	HP+367	From: 火狗头
-2: set:保护	main:SPD+42	Pri:RES+4	Attr:	HP%+17	DEF%+23	ATK+34	HP+667	From: 火狗头
-3: set:保护	main:DEF+160	Pri:HP+160	Attr:	DEF%+19	SPD+14	HP%+11	CRI+4	From: 火狗头
-4: set:迅速	main:HP%+63	Pri:DEF+20	Attr:	HP+508	CRI+18	ATK+26	RES+8	From: 火狗头
-5: set:迅速	main:HP+1800	Pri:ACC+6	Attr:	HP%+19	DEF+53	SPD+10	RES+6	From: 火狗头
-6: set:迅速	main:HP%+63			Attr:	CRI+9	SPD+11	DEF%+7	ATK%+13	From: 火狗头
-New:
-1: set:覆灭	main:ATK+118	Pri:ACC+8	Attr:	HP%+19	CRI+5	ATK%+24	SPD+6	From:背包
-2: set:保护	main:SPD+42	Pri:ATK+14	Attr:	DEF%+13	CRIDMG+9	ACC+18	CRI+5	From: 暗大象
-3: set:保护	main:DEF+118	Pri:CRIDMG+6	Attr:	DEF%+9	CRI+5	SPD+17	ACC+19	From:背包
-4: set:覆灭	main:HP%+63	Pri:HP+338	Attr:	CRI+12	SPD+14	CRIDMG+4	DEF%+14	From: 火格
-5: set:意志	main:HP+1800			Attr:	DEF%+8	ATK%+15	HP%+25	CRIDMG+14	From: 
-6: set:意志	main:HP%+51			Attr:	DEF%+4	RES+17	SPD+10	ATK+15	From: 风温
-15   风猴子   1078572878
-now: 2439.8809 	DPS: 838.8539 	EHP: 1042 	EHPDPS: 1869.8511 	SPD: 205 	HP: 22101 	ATK: 1518 	DEF: 1697 	CRI: 31 	CRIDMG: 54 	ACC: 39 	RES: 39
-find: 2548.4048   DPS: 951.5366   EHP: 997   EHPDPS: 1948.0061   SPD: 178   HP: 26084   ATK: 1186   DEF: 1314   CRI: 68   CRIDMG: 140   ACC: 32   RES: 26
-Old:
-1: set:暴走	main:ATK+160	Pri:HP+352	Attr:	CRI+5	SPD+11	ATK%+26	ACC+5	From: 风猴子
-2: set:集中	main:SPD+42	Pri:CRIDMG+4	Attr:	HP%+25	RES+12	DEF%+18	CRI+5	From: 风猴子
-3: set:集中	main:DEF+160	Pri:SPD+5	Attr:	ACC+15	HP%+17	DEF%+20	HP+674	From: 风猴子
-4: set:暴走	main:ATK%+63	Pri:RES+7	Attr:	DEF+29	HP+771	DEF%+8	ATK+20	From: 风猴子
-5: set:暴走	main:HP+1530	Pri:ATK+10	Attr:	SPD+13	RES+5	HP%+11	DEF%+14	From: 风猴子
-6: set:暴走	main:DEF%+63	Pri:CRI+6	Attr:	SPD+17	DEF+39	HP+353	ACC+4	From: 风猴子
-New:
-1: set:暴走	main:ATK+118	Pri:ACC+6	Attr:	SPD+14	ATK%+11	CRI+5	HP%+6	From: 水熊猫
-2: set:反击	main:HP%+63	Pri:SPD+4	Attr:	ACC+6	CRI+19	ATK%+8	CRIDMG+6	From: 光犬
-3: set:暴走	main:DEF+135	Pri:CRIDMG+4	Attr:	RES+11	SPD+13	CRI+15	DEF%+10	From: 火龙骑
-4: set:反击	main:CRIDMG+80	Pri:CRI+4	Attr:	HP%+22	ACC+8	ATK%+13	SPD+7	From:背包
-5: set:暴走	main:HP+1800	Pri:CRI+4	Attr:	ATK%+14	HP%+8	SPD+6	ACC+8	From:背包
-6: set:暴走	main:DEF%+63	Pri:CRI+6	Attr:	SPD+17	DEF+39	HP+353	ACC+4	From: 风猴子
-16   水瓦   918404274
-now: 2920.8662 	DPS: 1331.14 	EHP: 919 	EHPDPS: 2212.0737 	SPD: 159 	HP: 28400 	ATK: 2044 	DEF: 1061 	CRI: 73 	CRIDMG: 106 	ACC: 16 	RES: 35
-find: 2715.7544   DPS: 921.14655   EHP: 1074   EHPDPS: 1989.2827   SPD: 142   HP: 28362   ATK: 1930   DEF: 1298   CRI: 67   CRIDMG: 68   ACC: 21   RES: 52
-Old:
-1: set:暴走	main:ATK+160	Pri:HP%+6	Attr:	CRI+6	CRIDMG+16	SPD+9	ATK%+13	From: 水瓦
-2: set:覆灭	main:ATK%+63	Pri:DEF%+6	Attr:	CRI+8	SPD+15	ACC+11	HP%+12	From: 水瓦
-3: set:暴走	main:DEF+160	Pri:RES+4	Attr:	HP%+24	SPD+12	DEF%+15	CRIDMG+5	From: 水瓦
-4: set:覆灭	main:HP%+63	Pri:SPD+6	Attr:	DEF%+16	CRI+9	ATK%+15	RES+16	From: 水瓦
-5: set:暴走	main:HP+2448	Pri:SPD+6	Attr:	CRI+16	ACC+5	CRIDMG+10	ATK%+10	From: 水瓦
-6: set:暴走	main:ATK%+63	Pri:DEF%+7	Attr:	SPD+10	HP%+11	CRIDMG+25	CRI+4	From: 水瓦
-New:
-1: set:暴走	main:ATK+118			Attr:	CRIDMG+5	SPD+10	HP%+24	CRI+6	From: 风舞女
-2: set:覆灭	main:ATK%+63	Pri:DEF%+6	Attr:	CRI+8	SPD+15	ACC+11	HP%+12	From: 水瓦
-3: set:暴走	main:DEF+118	Pri:HP%+7	Attr:	CRI+4	DEF%+17	RES+21	SPD+10	From: 风舞女
-4: set:覆灭	main:HP%+63	Pri:SPD+6	Attr:	DEF%+16	CRI+9	ATK%+15	RES+16	From: 水瓦
-5: set:暴走	main:HP+1530	Pri:ACC+4	Attr:	CRI+5	CRIDMG+13	ATK%+7	DEF%+24	From: 火龙骑
-6: set:暴走	main:ATK%+63	Pri:CRI+5	Attr:	DEF%+13	DEF+37	ACC+6	HP%+13	From: 水姨夫
-17   水妞   1819798421
-now: 1915.0203 	DPS: 928.5421 	EHP: 655 	EHPDPS: 1559.7372 	SPD: 126 	HP: 18561 	ATK: 2140 	DEF: 1188 	CRI: 60 	CRIDMG: 149 	ACC: 16 	RES: 45
-find: 2101.2002   DPS: 1072.0894   EHP: 444   EHPDPS: 1379.8662   SPD: 169   HP: 13706   ATK: 1671   DEF: 1062   CRI: 68   CRIDMG: 160   ACC: 45   RES: 23
-Old:
-1: set:吸血	main:ATK+118			Attr:	CRI+14	SPD+14	RES+8	CRIDMG+7	From: 水妞
-2: set:吸血	main:ATK%+63	Pri:ATK+11	Attr:	HP%+15	RES+22	DEF%+19	DEF+13	From: 水妞
-3: set:吸血	main:DEF+118			Attr:	CRIDMG+12	HP+177	CRI+9	DEF%+24	From: 水妞
-4: set:吸血	main:CRIDMG+80			Attr:	ATK%+20	ACC+16	SPD+10	HP%+14	From: 水妞
-5: set:刀刃	main:HP+2040			Attr:	DEF+19	CRI+10	ATK%+19	HP%+26	From: 水妞
-6: set:刀刃	main:ATK%+63	Pri:DEF%+6	Attr:	HP%+21	HP+572	DEF+15	ATK+19	From: 水妞
-New:
-1: set:吸血	main:ATK+118	Pri:ATK%+5	Attr:	ACC+16	RES+8	HP+151	CRI+21	From:背包
-2: set:吸血	main:SPD+25			Attr:	CRIDMG+12	ATK%+15	ATK+17	From:背包
-3: set:吸血	main:DEF+118			Attr:	CRIDMG+12	HP+177	CRI+9	DEF%+24	From: 水妞
-4: set:吸血	main:CRIDMG+80			Attr:	ATK%+20	ACC+16	SPD+10	HP%+14	From: 水妞
-5: set:斗志	main:HP+1800			Attr:	CRIDMG+6	ACC+13	SPD+8	CRI+17	From: 风龙骑
-6: set:斗志	main:ATK%+63			Attr:	HP+978	CRI+6	SPD+7	DEF%+13	From: 水刺客
-18   火方   1663731268
-now: 2665.7188 	DPS: 724.8539 	EHP: 1185 	EHPDPS: 1853.5931 	SPD: 221 	HP: 23541 	ATK: 929 	DEF: 1835 	CRI: 45 	CRIDMG: 50 	ACC: 15 	RES: 38
-find: 2579.096   DPS: 1102.3859   EHP: 894   EHPDPS: 1985.4802   SPD: 211   HP: 18638   ATK: 929   DEF: 1732   CRI: 72   CRIDMG: 144   ACC: 13   RES: 73
-Old:
-1: set:保护	main:ATK+118			Attr:	CRI+4	SPD+21	ATK%+13	HP%+19	From: 火方
-2: set:保护	main:SPD+39			Attr:	DEF+23	ACC+9	HP%+10	RES+8	From: 火方
-3: set:意志	main:DEF+126			Attr:	CRI+5	SPD+18	HP+709	ACC+6	From: 火方
-4: set:应报	main:HP%+63			Attr:	DEF%+26	SPD+6	RES+9	HP+783	From: 火方
-5: set:意志	main:HP+1530			Attr:	DEF+34	RES+6	DEF%+13	SPD+23	From: 火方
-6: set:绝望	main:DEF%+63			Attr:	SPD+19	CRI+6	DEF+23	HP%+7	From: 火方
-New:
-1: set:意志	main:ATK+118			Attr:	ACC+7	SPD+10	CRI+16	RES+22	From:背包
-2: set:集中	main:SPD+42	Pri:CRIDMG+4	Attr:	HP%+25	RES+12	DEF%+18	CRI+5	From: 风猴子
-3: set:意志	main:DEF+126			Attr:	CRI+5	SPD+18	HP+709	ACC+6	From: 火方
-4: set:发扬	main:CRIDMG+59			Attr:	CRI+12	SPD+13	DEF%+18	RES+13	From:背包
-5: set:发扬	main:HP+1530			Attr:	RES+11	HP%+14	CRIDMG+3	SPD+17	From:背包
-6: set:韧性	main:DEF%+63	Pri:CRIDMG+7	Attr:	SPD+16	ATK%+13	HP%+19	CRI+4	From: 火代理
-19   风方   1154594723
-now: 2573.0107 	DPS: 620.21747 	EHP: 1390 	EHPDPS: 1856.9893 	SPD: 178 	HP: 30931 	ATK: 892 	DEF: 1602 	CRI: 23 	CRIDMG: 63 	ACC: 24 	RES: 42
-find: 2602.2346   DPS: 684.6918   EHP: 1198   EHPDPS: 1811.365   SPD: 208   HP: 27847   ATK: 799   DEF: 1520   CRI: 25   CRIDMG: 63   ACC: 12   RES: 41
-Old:
-1: set:暴走	main:ATK+99			Attr:	CRI+8	ACC+4	SPD+14	RES+13	From: 风方
-2: set:意志	main:HP%+63	Pri:DEF+18	Attr:	SPD+9	HP+553	CRIDMG+13	ACC+6	From: 风方
-3: set:暴走	main:DEF+99	Pri:ACC+5	Attr:	DEF%+12	SPD+13	HP%+4	RES+3	From: 风方
-4: set:意志	main:HP%+63	Pri:RES+6	Attr:	DEF%+26	ACC+6	SPD+10	ATK+15	From: 风方
-5: set:暴走	main:HP+1530	Pri:HP%+4	Attr:	SPD+13	RES+5	ATK+10	ACC+3	From: 风方
-6: set:暴走	main:DEF%+63			Attr:	SPD+9	ATK%+17	HP+213	DEF+14	From: 风方
-New:
-1: set:暴走	main:ATK+160			Attr:	CRIDMG+8	HP%+7	SPD+15	RES+4	From: 风温
-2: set:暴走	main:SPD+42			Attr:	CRI+10	RES+10	HP+553	HP%+13	From: 水海盗
-3: set:意志	main:DEF+118			Attr:	HP+253	SPD+17	ACC+5	DEF%+7	From: 风温
-4: set:暴走	main:DEF%+63			Attr:	SPD+6	RES+6	HP%+25	ACC+4	From: 火熊猫
-5: set:意志	main:HP+1530	Pri:ATK+13	Attr:	DEF%+11	SPD+10	DEF+24	ACC+3	From: 火上
-6: set:暴走	main:HP%+63			Attr:	DEF+44	SPD+8	CRIDMG+5	RES+6	From: 风萝莉
-20   火鞭   1679589225
-now: 1832.0013 	DPS: 457.60962 	EHP: 709 	EHPDPS: 1139.2019 	SPD: 177 	HP: 19442 	ATK: 996 	DEF: 1237 	CRI: 25 	CRIDMG: 88 	ACC: 98 	RES: 31
-find: 2349.329   DPS: 990.7699   EHP: 605   EHPDPS: 1548.439   SPD: 197   HP: 19360   ATK: 1478   DEF: 1013   CRI: 67   CRIDMG: 139   ACC: 46   RES: 19
-Old:
-1: set:暴走	main:ATK+118			Attr:	ACC+21	CRIDMG+7	RES+4	ATK%+8	From: 火鞭
-2: set:反击	main:SPD+42	Pri:ACC+8	Attr:	DEF%+15	CRIDMG+12	HP+295	ATK+18	From: 火鞭
-3: set:暴走	main:DEF+99			Attr:	ACC+7	SPD+13	DEF%+10	HP+118	From: 火鞭
-4: set:暴走	main:DEF%+63			Attr:	CRIDMG+19	ACC+13	HP+156	HP%+7	From: 火鞭
-5: set:暴走	main:HP+1530			Attr:	DEF%+5	SPD+8	ACC+13	CRI+4	From: 火鞭
-6: set:绝望	main:HP%+63	Pri:HP+299	Attr:	SPD+10	ACC+11	RES+12	CRI+6	From: 火鞭
-New:
-1: set:反击	main:ATK+118	Pri:ACC+6	Attr:	CRI+14	RES+4	ATK%+14	SPD+7	From:背包
-2: set:反击	main:SPD+42			Attr:	CRIDMG+5	CRI+16	DEF%+13	ACC+7	From:背包
-3: set:反击	main:DEF+118			Attr:	CRI+10	SPD+18	ACC+8	DEF%+8	From: 光丁
-4: set:斗志	main:CRIDMG+59			Attr:	ATK%+25	SPD+7	HP%+11	DEF%+12	From:背包
-5: set:反击	main:HP+1800			Attr:	CRI+12	SPD+14	DEF+25	ATK%+9	From:背包
-6: set:斗志	main:HP%+63	Pri:SPD+5	Attr:	CRIDMG+4	DEF%+5	DEF+41	ATK%+26	From: 火吸
-21   火吸   1240045742
-now: 2832.5098 	DPS: 871.45886 	EHP: 665 	EHPDPS: 1522.5244 	SPD: 161 	HP: 23997 	ATK: 1302 	DEF: 860 	CRI: 92 	CRIDMG: 87 	ACC: 6 	RES: 32
-find: 2880.4429   DPS: 898.8938   EHP: 479   EHPDPS: 1312.3568   SPD: 199   HP: 13771   ATK: 1169   DEF: 1167   CRI: 91   CRIDMG: 74   ACC: 20   RES: 40
-Old:
-1: set:暴走	main:ATK+99			Attr:	CRI+7	HP%+6	SPD+9	CRIDMG+13	From: 火吸
-2: set:斗志	main:SPD+42	Pri:ATK%+5	Attr:	ATK+39	CRI+6	DEF+28	DEF%+20	From: 火吸
-3: set:暴走	main:DEF+126			Attr:	HP%+12	ACC+6	CRI+15	RES+8	From: 火吸
-4: set:暴走	main:CRI+58			Attr:	HP%+24	RES+5	SPD+6	CRIDMG+4	From: 火吸
-5: set:暴走	main:HP+1800			Attr:	CRIDMG+16	HP%+13	RES+4	ATK%+8	From: 火吸
-6: set:斗志	main:HP%+63	Pri:SPD+5	Attr:	CRIDMG+4	DEF%+5	DEF+41	ATK%+26	From: 火吸
-New:
-1: set:斗志	main:ATK+118			Attr:	CRIDMG+13	ACC+7	SPD+12	CRI+8	From:背包
-2: set:斗志	main:SPD+42	Pri:ATK+19	Attr:	DEF%+14	CRI+10	DEF+51	CRIDMG+6	From: 水刺客
-3: set:暴走	main:DEF+99	Pri:HP+240	Attr:	SPD+13	HP%+14	CRI+3	RES+7	From: 水海盗
-4: set:暴走	main:CRI+58	Pri:ACC+8	Attr:	RES+18	CRIDMG+5	SPD+10	ATK%+5	From:背包
-5: set:暴走	main:HP+1635	Pri:ACC+5	Attr:	SPD+14	DEF%+13	CRI+4	DEF+8	From: 火熊猫
-6: set:暴走	main:DEF%+63			Attr:	SPD+9	ATK%+17	HP+213	DEF+14	From: 风方
-22   火舞女   1307101692
-now: 2464.5845 	DPS: 1179.6714 	EHP: 512 	EHPDPS: 1554.3381 	SPD: 192 	HP: 17154 	ATK: 2210 	DEF: 953 	CRI: 34 	CRIDMG: 60 	ACC: 17 	RES: 15
-find: 2524.108   DPS: 1143.0978   EHP: 526   EHPDPS: 1550.8313   SPD: 188   HP: 17360   ATK: 2396   DEF: 973   CRI: 18   CRIDMG: 55   ACC: 12   RES: 53
-Old:
-1: set:暴走	main:ATK+126	Pri:HP%+7	Attr:	SPD+6	ATK%+17	ACC+5	CRI+5	From: 火舞女
-2: set:暴走	main:SPD+39			Attr:	HP+103	HP%+12	DEF%+18	ATK+9	From: 火舞女
-3: set:守护	main:DEF+118			Attr:	CRI+4	SPD+19	CRIDMG+5	HP%+11	From: 火舞女
-4: set:暴走	main:ATK%+63			Attr:	SPD+11	CRI+10	DEF%+6	ATK+28	From: 火舞女
-5: set:暴走	main:HP+1530			Attr:	HP%+10	ATK%+13	ATK+11	CRIDMG+5	From: 火舞女
-6: set:守护	main:ATK%+63			Attr:	ACC+12	SPD+16	HP%+17	ATK+34	From: 火舞女
-New:
-1: set:暴走	main:ATK+99	Pri:CRI+3	Attr:	RES+5	ATK%+31	SPD+3	CRIDMG+5	From: 风瑞奇
-2: set:暴走	main:SPD+29			Attr:	HP%+15	ATK%+11	RES+11	DEF+14	From:背包
-3: set:暴走	main:DEF+118			Attr:	HP%+5	DEF%+18	RES+9	SPD+12	From:背包
-4: set:暴走	main:ATK%+63	Pri:RES+7	Attr:	DEF+29	HP+771	DEF%+8	ATK+20	From: 风猴子
-5: set:迅速	main:HP+1920	Pri:RES+6	Attr:	DEF%+9	SPD+17	ATK%+19	HP%+11	From: 火格
-6: set:守护	main:ATK%+63			Attr:	ACC+12	SPD+16	HP%+17	ATK+34	From: 火舞女
-23   火熊猫   1679608308
-now: 2163.1975 	DPS: 1057.722 	EHP: 1136 	EHPDPS: 2192.325 	SPD: 180 	HP: 18801 	ATK: 922 	DEF: 2270 	CRI: 33 	CRIDMG: 50 	ACC: 32 	RES: 65
-find: 2253.3706   DPS: 993.94464   EHP: 1211   EHPDPS: 2194.235   SPD: 189   HP: 21242   ATK: 864   DEF: 2122   CRI: 46   CRIDMG: 72   ACC: 72   RES: 74
-Old:
-1: set:斗志	main:ATK+118	Pri:SPD+5	Attr:	ACC+18	ATK%+11	HP+637	CRI+5	From: 火熊猫
-2: set:斗志	main:SPD+39	Pri:HP+297	Attr:	DEF+35	ATK%+11	DEF%+14	HP%+13	From: 火熊猫
-3: set:暴走	main:DEF+99			Attr:	HP%+12	RES+6	SPD+16	ACC+5	From: 火熊猫
-4: set:暴走	main:DEF%+63			Attr:	SPD+6	RES+6	HP%+25	ACC+4	From: 火熊猫
-5: set:暴走	main:HP+1635	Pri:ACC+5	Attr:	SPD+14	DEF%+13	CRI+4	DEF+8	From: 火熊猫
-6: set:暴走	main:DEF%+63	Pri:SPD+4	Attr:	RES+13	CRI+9	DEF+10	ATK+12	From: 火熊猫
-New:
-1: set:斗志	main:ATK+118			Attr:	HP+903	RES+8	HP%+24	CRIDMG+13	From:背包
-2: set:斗志	main:SPD+42	Pri:ATK%+5	Attr:	ATK+39	CRI+6	DEF+28	DEF%+20	From: 火吸
-3: set:猛攻	main:DEF+118	Pri:ACC+8	Attr:	SPD+12	DEF%+25	HP%+12	CRI+9	From: 风企鹅
-4: set:斗志	main:DEF%+63	Pri:ATK+20	Attr:	RES+12	CRI+10	SPD+12	CRIDMG+9	From: 光人造人
-5: set:斗志	main:HP+1800			Attr:	HP%+17	RES+14	SPD+6	DEF%+12	From:背包
-6: set:守护	main:ACC+64	Pri:CRI+6	Attr:	SPD+21	HP+492	DEF%+15	HP%+12	From: 火精灵
-24   火格   1111200034
-now: 2681.9863 	DPS: 1537.401 	EHP: 650 	EHPDPS: 1999.3105 	SPD: 221 	HP: 21951 	ATK: 837 	DEF: 943 	CRI: 52 	CRIDMG: 75 	ACC: 76 	RES: 34
-find: 2831.7058   DPS: 1582.7728   EHP: 673   EHPDPS: 2064.1765   SPD: 223   HP: 21644   ATK: 947   DEF: 1007   CRI: 54   CRIDMG: 145   ACC: 78   RES: 26
-Old:
-1: set:暴走	main:ATK+99	Pri:RES+5	Attr:	CRI+5	HP+424	SPD+8	CRIDMG+12	From: 火格
-2: set:暴走	main:SPD+39			Attr:	HP+168	ACC+12	CRI+12	ATK%+4	From: 火格
-3: set:暴走	main:DEF+118			Attr:	HP+453	RES+8	SPD+13	HP%+7	From: 火格
-4: set:覆灭	main:HP%+63	Pri:HP+338	Attr:	CRI+12	SPD+14	CRIDMG+4	DEF%+14	From: 火格
-5: set:迅速	main:HP+1920	Pri:RES+6	Attr:	DEF%+9	SPD+17	ATK%+19	HP%+11	From: 火格
-6: set:暴走	main:ACC+64			Attr:	CRIDMG+9	HP%+19	CRI+8	SPD+4	From: 火格
-New:
-1: set:决心	main:ATK+99			Attr:	ACC+7	SPD+9	ATK%+23	HP%+20	From: 光丁
-2: set:决心	main:SPD+29	Pri:ATK+10	Attr:	DEF%+13	ACC+7	HP%+29	CRIDMG+5	From: 光丁
-3: set:刀刃	main:DEF+99	Pri:HP%+7	Attr:	CRI+17	CRIDMG+4	SPD+9	DEF%+10	From: 风丑2
-4: set:斗志	main:CRIDMG+80	Pri:CRI+6	Attr:	SPD+9	HP+1348	HP%+14	RES+6	From: 水刺客
-5: set:刀刃	main:HP+1800	Pri:CRI+4	Attr:	HP%+27	SPD+9	DEF%+14	ATK%+14	From: 
-6: set:集中	main:ACC+64			Attr:	RES+5	CRIDMG+6	SPD+22	ATK+20	From: 风格
-25   光人造人   2466320041
-now: 2054.8096 	DPS: 442.19034 	EHP: 1175 	EHPDPS: 1441.6292 	SPD: 150 	HP: 19736 	ATK: 975 	DEF: 2231 	CRI: 34 	CRIDMG: 91 	ACC: 18 	RES: 45
-find: 2083.29   DPS: 293.80164   EHP: 1452   EHPDPS: 1306.2924   SPD: 112   HP: 23275   ATK: 910   DEF: 2353   CRI: 27   CRIDMG: 92   ACC: 40   RES: 52
-Old:
-1: set:暴走	main:ATK+118			Attr:	CRI+9	SPD+12	ACC+13	HP+366	From: 光人造人
-2: set:暴走	main:DEF%+63	Pri:ATK%+7	Attr:	HP+575	CRIDMG+13	RES+5	ATK+13	From: 光人造人
-3: set:暴走	main:DEF+99	Pri:ACC+5	Attr:	SPD+13	HP%+6	DEF%+14	HP+98	From: 光人造人
-4: set:斗志	main:DEF%+63	Pri:ATK+20	Attr:	RES+12	CRI+10	SPD+12	CRIDMG+9	From: 光人造人
-5: set:斗志	main:HP+1800			Attr:	RES+9	ATK%+18	SPD+12	HP%+17	From: 光人造人
-6: set:暴走	main:DEF%+63			Attr:	CRIDMG+19	HP%+6	HP+324	RES+4	From: 光人造人
-New:
-1: set:暴走	main:ATK+118			Attr:	HP%+20	ATK%+11	CRIDMG+9	SPD+3	From: 水和尚
-2: set:斗志	main:DEF%+63			Attr:	HP%+24	RES+12	CRI+12	HP+313	From: 风龙骑
-3: set:斗志	main:DEF+118	Pri:SPD+4	Attr:	CRIDMG+7	RES+21	DEF%+18	ACC+7	From:背包
-4: set:暴走	main:DEF%+63	Pri:SPD+4	Attr:	HP%+5	ACC+13	HP+192	CRIDMG+7	From: 风企鹅
-5: set:暴走	main:HP+1800	Pri:ATK%+5	Attr:	HP%+7	ACC+20	DEF%+10	ATK+24	From:背包
-6: set:暴走	main:DEF%+63			Attr:	CRIDMG+19	HP%+6	HP+324	RES+4	From: 光人造人
-26   火精灵   1035294639
-now: 2654.0378 	DPS: 444.75488 	EHP: 860 	EHPDPS: 1236.9142 	SPD: 240 	HP: 26879 	ATK: 898 	DEF: 1045 	CRI: 25 	CRIDMG: 54 	ACC: 116 	RES: 15
-find: 2652.69   DPS: 485.7989   EHP: 704   EHPDPS: 1169.6194   SPD: 197   HP: 22912   ATK: 1166   DEF: 990   CRI: 24   CRIDMG: 68   ACC: 111   RES: 15
-Old:
-1: set:绝望	main:ATK+118	Pri:ACC+7	Attr:	HP+473	HP%+23	SPD+18	CRIDMG+4	From: 火精灵
-2: set:祝福	main:SPD+42			Attr:	DEF%+13	ACC+12	DEF+53	ATK+26	From: 火精灵
-3: set:绝望	main:DEF+99	Pri:HP%+4	Attr:	CRI+4	SPD+18	ACC+10	DEF%+10	From: 火精灵
-4: set:绝望	main:HP%+63	Pri:HP+160	Attr:	DEF+12	SPD+17	ATK+16	ACC+8	From: 火精灵
-5: set:绝望	main:HP+1920	Pri:HP%+6	Attr:	ATK+15	DEF%+16	ACC+15	SPD+19	From: 火精灵
-6: set:守护	main:ACC+64	Pri:CRI+6	Attr:	SPD+21	HP+492	DEF%+15	HP%+12	From: 火精灵
-New:
-1: set:绝望	main:ATK+99			Attr:	ACC+6	HP%+14	SPD+14	HP+274	From: 暗大象
-2: set:绝望	main:SPD+39			Attr:	DEF+24	ACC+12	DEF%+17	ATK%+10	From: 暗莽
-3: set:绝望	main:DEF+118			Attr:	ACC+21	SPD+6	DEF%+19	CRI+4	From: 暗大象
-4: set:命中	main:HP%+47	Pri:DEF%+8	Attr:	ATK%+17	SPD+8	CRIDMG+13	CRI+5	From:背包
-5: set:命中	main:HP+1530			Attr:	CRIDMG+5	SPD+21	ACC+8	ATK%+9	From:背包
-6: set:绝望	main:ACC+64	Pri:DEF+16	Attr:	ATK%+13	HP+756	ATK+17	SPD+4	From: 
-27   暗莽   1493233944
-now: 2440.2961 	DPS: 381.92267 	EHP: 760 	EHPDPS: 1077.518 	SPD: 192 	HP: 24407 	ATK: 920 	DEF: 1009 	CRI: 19 	CRIDMG: 54 	ACC: 94 	RES: 40
-find: 2498.4888   DPS: 425.77545   EHP: 756   EHPDPS: 1134.7004   SPD: 202   HP: 25538   ATK: 791   DEF: 943   CRI: 29   CRIDMG: 50   ACC: 104   RES: 38
-Old:
-1: set:绝望	main:ATK+118			Attr:	SPD+18	HP+624	HP%+14	ATK%+8	From: 暗莽
-2: set:绝望	main:SPD+39			Attr:	DEF+24	ACC+12	DEF%+17	ATK%+10	From: 暗莽
-3: set:绝望	main:DEF+99			Attr:	ACC+18	RES+8	SPD+9	HP%+6	From: 暗莽
-4: set:忍耐	main:HP%+63			Attr:	SPD+13	CRI+4	RES+17	DEF%+15	From: 暗莽
-5: set:绝望	main:HP+1800	Pri:ATK+18	Attr:	DEF%+17	SPD+9	CRIDMG+4	HP%+8	From: 暗莽
-6: set:祝福	main:ACC+64	Pri:DEF%+6	Attr:	HP+775	HP%+17	SPD+4	ATK%+5	From: 暗莽
-New:
-1: set:绝望	main:ATK+99	Pri:RES+6	Attr:	HP%+11	SPD+11	ACC+6	CRI+9	From:背包
-2: set:忍耐	main:SPD+42	Pri:DEF+11	Attr:	HP%+17	DEF%+18	ACC+15	RES+4	From: 风萝莉
-3: set:绝望	main:DEF+118			Attr:	ACC+11	SPD+6	RES+7	HP%+26	From:背包
-4: set:绝望	main:HP%+63	Pri:HP+160	Attr:	DEF+12	SPD+17	ATK+16	ACC+8	From: 火精灵
-5: set:绝望	main:HP+1530			Attr:	SPD+15	DEF%+17	CRI+5	ATK%+6	From: 
-6: set:迅速	main:ACC+48			Attr:	RES+6	SPD+11	HP%+19	DEF+19	From: 水女巫
-28   暗大象   1515436657
-now: 2347.505 	DPS: 510.95654 	EHP: 992 	EHPDPS: 1423.8945 	SPD: 190 	HP: 21994 	ATK: 713 	DEF: 1609 	CRI: 29 	CRIDMG: 63 	ACC: 70 	RES: 28
-find: 2453.688   DPS: 311.94608   EHP: 1103   EHPDPS: 1173.1608   SPD: 153   HP: 35002   ATK: 669   DEF: 1024   CRI: 46   CRIDMG: 59   ACC: 73   RES: 35
-Old:
-1: set:绝望	main:ATK+99			Attr:	ACC+6	HP%+14	SPD+14	HP+274	From: 暗大象
-2: set:保护	main:SPD+42	Pri:ATK+14	Attr:	DEF%+13	CRIDMG+9	ACC+18	CRI+5	From: 暗大象
-3: set:绝望	main:DEF+118			Attr:	ACC+21	SPD+6	DEF%+19	CRI+4	From: 暗大象
-4: set:反击	main:DEF%+63	Pri:SPD+5	Attr:	HP+788	ACC+14	HP%+10	CRI+5	From: 暗大象
-5: set:绝望	main:HP+1800	Pri:ATK%+7	Attr:	SPD+10	ACC+11	CRIDMG+4	RES+6	From: 暗大象
-6: set:绝望	main:HP%+63	Pri:DEF%+8	Attr:	SPD+14	RES+7	ATK+42	ATK%+12	From: 暗大象
-New:
-1: set:守护	main:ATK+118	Pri:HP+228	Attr:	SPD+8	ACC+23	HP%+17	CRIDMG+5	From: 风企鹅
-2: set:绝望	main:HP%+63			Attr:	CRI+14	ACC+13	ATK%+8	CRIDMG+4	From:背包
-3: set:绝望	main:DEF+99			Attr:	ACC+18	RES+8	SPD+9	HP%+6	From: 暗莽
-4: set:刀刃	main:HP%+63	Pri:ACC+8	Attr:	SPD+17	ATK%+8	DEF%+15	DEF+19	From: 水海盗
-5: set:绝望	main:HP+1800	Pri:DEF+14	Attr:	SPD+10	HP%+12	CRI+11	DEF%+5	From: 
-6: set:绝望	main:HP%+63	Pri:HP+299	Attr:	SPD+10	ACC+11	RES+12	CRI+6	From: 火鞭
-29   风萝莉   3104974405
-now: 2135.0603 	DPS: 529.205 	EHP: 1038 	EHPDPS: 1482.3156 	SPD: 196 	HP: 29426 	ATK: 1019 	DEF: 1187 	CRI: 25 	CRIDMG: 59 	ACC: 52 	RES: 47
-find: 2349.69   DPS: 613.79956   EHP: 945   EHPDPS: 1523.2079   SPD: 219   HP: 27646   ATK: 1061   DEF: 1139   CRI: 24   CRIDMG: 60   ACC: 75   RES: 26
-Old:
-1: set:暴走	main:ATK+99			Attr:	SPD+14	CRIDMG+4	HP+402	ACC+5	From: 风萝莉
-2: set:忍耐	main:SPD+42	Pri:DEF+11	Attr:	HP%+17	DEF%+18	ACC+15	RES+4	From: 风萝莉
-3: set:暴走	main:DEF+99	Pri:DEF%+5	Attr:	ACC+7	SPD+13	HP+90	CRI+5	From: 风萝莉
-4: set:暴走	main:HP%+63			Attr:	DEF%+20	RES+7	ATK+30	CRI+5	From: 风萝莉
-5: set:忍耐	main:HP+1530	Pri:DEF+13	Attr:	HP%+16	DEF%+20	SPD+14	ATK+9	From: 风萝莉
-6: set:暴走	main:HP%+63			Attr:	DEF+44	SPD+8	CRIDMG+5	RES+6	From: 风萝莉
-New:
-1: set:暴走	main:ATK+160	Pri:ATK%+5	Attr:	CRI+9	ACC+15	SPD+14	CRIDMG+4	From: 水姨夫
-2: set:暴走	main:SPD+39	Pri:HP%+6	Attr:	ATK+14	ACC+16	HP+178	DEF%+7	From: 风温
-3: set:暴走	main:DEF+99	Pri:ACC+5	Attr:	SPD+13	HP%+6	DEF%+14	HP+98	From: 光人造人
-4: set:祝福	main:HP%+63	Pri:DEF+14	Attr:	SPD+20	HP+218	DEF%+8	RES+5	From: 水熊猫
-5: set:暴走	main:HP+1800			Attr:	CRIDMG+6	SPD+14	ACC+7	DEF%+9	From: 风哈格
-6: set:韧性	main:HP%+63			Attr:	SPD+14	DEF%+26	RES+6	ACC+7	From: 暗DK
-30   风丑1   927214883
-now: 1230.8826 	DPS: 1123.3826 	EHP: 405 	EHPDPS: 1349.0292 	SPD: 114 	HP: 15946 	ATK: 2343 	DEF: 761 	CRI: 67 	CRIDMG: 196 	ACC: 33 	RES: 34
-find: 1847.4165   DPS: 1773.1165   EHP: 403   EHPDPS: 1690.64   SPD: 169   HP: 14798   ATK: 2358   DEF: 840   CRI: 72   CRIDMG: 201   ACC: 0   RES: 34
-Old:
-1: set:刀刃	main:ATK+99	Pri:HP+120	Attr:	CRI+13	CRIDMG+4	HP%+12	ACC+6	From: 风丑1
-2: set:激怒	main:ATK%+63			Attr:	HP+553	RES+13	CRIDMG+8	ACC+4	From: 风丑1
-3: set:激怒	main:DEF+99			Attr:	CRIDMG+4	ACC+8	CRI+11	SPD+11	From: 风丑1
-4: set:激怒	main:CRIDMG+80	Pri:DEF%+7	Attr:	ATK%+18	HP+464	DEF+14	HP%+11	From: 风丑1
-5: set:激怒	main:HP+1800			Attr:	CRI+16	CRIDMG+6	ACC+15	DEF+13	From: 风丑1
-6: set:刀刃	main:ATK%+63	Pri:CRIDMG+4	Attr:	DEF%+23	RES+6	HP%+11	ATK+12	From: 风丑1
-New:
-1: set:猛攻	main:ATK+99	Pri:RES+3	Attr:	CRI+15	ATK%+11	SPD+14	HP%+12	From: 水炸弹
-2: set:绝望	main:ATK%+63			Attr:	CRIDMG+19	SPD+7	CRI+8	DEF%+14	From: 火龙骑
-3: set:激怒	main:DEF+160	Pri:HP+213	Attr:	SPD+13	RES+16	CRI+9	CRIDMG+7	From: 水牛
-4: set:激怒	main:CRIDMG+80			Attr:	ATK%+10	CRI+5	SPD+13	HP%+13	From: 风大锤
-5: set:激怒	main:HP+2448	Pri:CRIDMG+5	Attr:	DEF%+11	SPD+13	CRI+11	DEF+44	From: 风大锤
-6: set:激怒	main:ATK%+63			Attr:	HP+606	CRI+9	SPD+6	DEF%+13	From: 水牛
-31   风丑2   1067924459
-now: 1813.1157 	DPS: 1726.0156 	EHP: 333 	EHPDPS: 1516.2628 	SPD: 147 	HP: 12964 	ATK: 2735 	DEF: 775 	CRI: 83 	CRIDMG: 164 	ACC: 12 	RES: 49
-find: 1933.6163   DPS: 1870.4164   EHP: 382   EHPDPS: 1690.5609   SPD: 167   HP: 14968   ATK: 2745   DEF: 767   CRI: 87   CRIDMG: 143   ACC: 0   RES: 25
-Old:
-1: set:猛攻	main:ATK+126			Attr:	SPD+14	CRIDMG+10	ATK%+19	CRI+6	From: 风丑2
-2: set:猛攻	main:ATK%+63	Pri:SPD+5	Attr:	CRIDMG+4	RES+19	DEF%+11	CRI+5	From: 风丑2
-3: set:刀刃	main:DEF+99	Pri:HP%+7	Attr:	CRI+17	CRIDMG+4	SPD+9	DEF%+10	From: 风丑2
-4: set:猛攻	main:CRIDMG+80			Attr:	DEF%+13	CRI+8	ATK+36	SPD+9	From: 风丑2
-5: set:刀刃	main:HP+1800			Attr:	CRI+11	ATK+19	RES+15	CRIDMG+16	From: 风丑2
-6: set:猛攻	main:ATK%+63	Pri:HP%+7	Attr:	CRI+9	ACC+12	DEF%+5	SPD+7	From: 风丑2
-New:
-1: set:猛攻	main:ATK+126			Attr:	SPD+14	CRIDMG+10	ATK%+19	CRI+6	From: 风丑2
-2: set:激怒	main:ATK%+47			Attr:	SPD+9	CRIDMG+18	DEF%+9	HP+343	From:背包
-3: set:激怒	main:DEF+118	Pri:HP%+6	Attr:	CRIDMG+17	CRI+5	DEF%+20	SPD+8	From: 风大锤
-4: set:激怒	main:CRI+58			Attr:	SPD+15	RES+4	HP%+17	ATK%+11	From:背包
-5: set:激怒	main:HP+2448			Attr:	ATK%+28	CRI+6	CRIDMG+8	RES+6	From: 水牛
-6: set:守护	main:ATK%+63			Attr:	SPD+18	ATK+29	DEF+13	HP%+9	From: 水蝴蝶
-32   火姨夫   1599219954
-now: 1518.1311 	DPS: 787.80396 	EHP: 701 	EHPDPS: 1486.2712 	SPD: 140 	HP: 26261 	ATK: 1854 	DEF: 817 	CRI: 88 	CRIDMG: 114 	ACC: 63 	RES: 15
-find: 2023.9723   DPS: 1222.2042   EHP: 523   EHPDPS: 1599.0157   SPD: 174   HP: 18316   ATK: 1766   DEF: 897   CRI: 68   CRIDMG: 130   ACC: 53   RES: 26
-Old:
-1: set:忍耐	main:ATK+118	Pri:CRI+6	Attr:	SPD+6	HP+275	CRIDMG+21	ATK%+5	From: 火姨夫
-2: set:祝福	main:ATK%+63			Attr:	CRI+10	HP%+13	ATK+10	CRIDMG+6	From: 火姨夫
-3: set:猛攻	main:DEF+118			Attr:	ACC+6	CRIDMG+11	SPD+18	CRI+3	From: 火姨夫
-4: set:猛攻	main:CRI+58	Pri:HP%+8	Attr:	ATK%+20	HP+232	CRIDMG+4	ACC+12	From: 火姨夫
-5: set:猛攻	main:HP+1800			Attr:	HP%+16	DEF%+5	SPD+5	CRIDMG+22	From: 火姨夫
-6: set:猛攻	main:HP%+63			Attr:	SPD+11	HP+236	ACC+20	ATK+19	From: 火姨夫
-New:
-1: set:暴走	main:ATK+126	Pri:HP%+7	Attr:	SPD+6	ATK%+17	ACC+5	CRI+5	From: 火舞女
-2: set:反击	main:SPD+39			Attr:	CRI+9	ATK%+20	ATK+30	DEF%+13	From: 水狗
-3: set:暴走	main:DEF+118			Attr:	CRI+9	SPD+15	RES+5	ACC+7	From: 水熊猫
-4: set:暴走	main:CRIDMG+80	Pri:HP%+8	Attr:	ATK%+11	HP+1174	RES+6	CRI+4	From: 火龙骑
-5: set:暴走	main:HP+1800			Attr:	SPD+8	CRI+14	HP%+11	DEF+19	From: 水姨夫
-6: set:反击	main:ATK%+63	Pri:SPD+6	Attr:	DEF+11	ACC+16	CRI+12	HP+160	From: 风瑞奇
-33   风瑞奇   1101638879
-now: 2235.1426 	DPS: 1147.2427 	EHP: 359 	EHPDPS: 1283.5266 	SPD: 129 	HP: 14145 	ATK: 2106 	DEF: 760 	CRI: 56 	CRIDMG: 148 	ACC: 38 	RES: 33
-find: 2295.2688   DPS: 1127.9688   EHP: 383   EHPDPS: 1314.5525   SPD: 151   HP: 15219   ATK: 1419   DEF: 751   CRI: 81   CRIDMG: 158   ACC: 49   RES: 23
-Old:
-1: set:暴走	main:ATK+99	Pri:CRI+3	Attr:	RES+5	ATK%+31	SPD+3	CRIDMG+5	From: 风瑞奇
-2: set:反击	main:ATK%+63	Pri:ATK+10	Attr:	RES+13	SPD+13	CRI+4	DEF+17	From: 风瑞奇
-3: set:暴走	main:DEF+160			Attr:	CRIDMG+5	CRI+14	ACC+5	SPD+6	From: 风瑞奇
-4: set:暴走	main:CRIDMG+80			Attr:	ATK%+22	DEF+13	HP+299	HP%+7	From: 风瑞奇
-5: set:暴走	main:HP+1530	Pri:DEF+10	Attr:	SPD+5	ACC+17	CRIDMG+8	CRI+8	From: 风瑞奇
-6: set:反击	main:ATK%+63	Pri:SPD+6	Attr:	DEF+11	ACC+16	CRI+12	HP+160	From: 风瑞奇
-New:
-1: set:暴走	main:ATK+160			Attr:	CRI+17	ATK%+9	RES+8	ACC+7	From: 火龙骑
-2: set:暴走	main:SPD+39			Attr:	CRI+10	HP+446	CRIDMG+9	DEF%+6	From:背包
-3: set:暴走	main:DEF+160			Attr:	CRIDMG+5	CRI+14	ACC+5	SPD+6	From: 风瑞奇
-4: set:反击	main:CRIDMG+80			Attr:	CRI+11	HP%+17	ATK+15	ACC+4	From:背包
-5: set:暴走	main:HP+1530	Pri:DEF+10	Attr:	SPD+5	ACC+17	CRIDMG+8	CRI+8	From: 风瑞奇
-6: set:反击	main:ATK%+63	Pri:SPD+5	Attr:	ACC+16	CRI+6	ATK+35	CRIDMG+6	From: 水狗
-34   风格   961518960
-now: 2541.9216 	DPS: 455.37982 	EHP: 592 	EHPDPS: 1038.4312 	SPD: 270 	HP: 16268 	ATK: 722 	DEF: 1234 	CRI: 18 	CRIDMG: 69 	ACC: 64 	RES: 63
-find: 2600.7283   DPS: 364.70477   EHP: 793   EHPDPS: 1075.5667   SPD: 238   HP: 21591   ATK: 653   DEF: 1249   CRI: 35   CRIDMG: 60   ACC: 70   RES: 33
-Old:
-1: set:迅速	main:ATK+99	Pri:RES+7	Attr:	SPD+17	CRIDMG+4	ATK%+16	HP%+12	From: 风格
-2: set:迅速	main:SPD+42			Attr:	DEF%+13	DEF+41	RES+25	ATK%+14	From: 风格
-3: set:迅速	main:DEF+118			Attr:	SPD+21	HP+145	RES+6	CRIDMG+5	From: 风格
-4: set:迅速	main:HP+1800			Attr:	DEF%+14	SPD+15	ATK%+6	RES+5	From: 风格
-5: set:迅速	main:HP+1530			Attr:	SPD+17	CRIDMG+4	DEF%+20	CRI+3	From: 风格
-6: set:集中	main:ACC+64			Attr:	RES+5	CRIDMG+6	SPD+22	ATK+20	From: 风格
-New:
-1: set:迅速	main:ATK+118			Attr:	RES+4	HP+214	SPD+21	CRIDMG+6	From:背包
-2: set:斗志	main:SPD+39	Pri:HP+297	Attr:	DEF+35	ATK%+11	DEF%+14	HP%+13	From: 火熊猫
-3: set:斗志	main:DEF+118			Attr:	SPD+10	CRI+8	DEF%+10	ACC+6	From:背包
-4: set:迅速	main:HP%+38			Attr:	SPD+9	CRI+9	ATK+31	From:背包
-5: set:迅速	main:HP+1530			Attr:	SPD+17	CRIDMG+4	DEF%+20	CRI+3	From: 风格
-6: set:迅速	main:ACC+64			Attr:	RES+14	SPD+6	HP+762	DEF%+6	From: 
-35   风企鹅   1493239978
-now: 2140.8 	DPS: 419.55463 	EHP: 842 	EHPDPS: 1188.722 	SPD: 173 	HP: 23617 	ATK: 863 	DEF: 1203 	CRI: 35 	CRIDMG: 62 	ACC: 72 	RES: 15
-find: 2228.8   DPS: 475.2743   EHP: 752   EHPDPS: 1195.6693   SPD: 196   HP: 23153   ATK: 910   DEF: 1066   CRI: 28   CRIDMG: 55   ACC: 82   RES: 50
-Old:
-1: set:守护	main:ATK+118	Pri:HP+228	Attr:	SPD+8	ACC+23	HP%+17	CRIDMG+5	From: 风企鹅
-2: set:暴走	main:SPD+39			Attr:	DEF%+19	HP+534	ATK+13	DEF+13	From: 风企鹅
-3: set:猛攻	main:DEF+118	Pri:ACC+8	Attr:	SPD+12	DEF%+25	HP%+12	CRI+9	From: 风企鹅
-4: set:暴走	main:DEF%+63	Pri:SPD+4	Attr:	HP%+5	ACC+13	HP+192	CRIDMG+7	From: 风企鹅
-5: set:暴走	main:HP+1530			Attr:	DEF+8	ATK+37	ACC+15	SPD+5	From: 风企鹅
-6: set:暴走	main:HP%+63			Attr:	HP+490	ACC+13	CRI+11	ATK+16	From: 风企鹅
-New:
-1: set:暴走	main:ATK+118			Attr:	CRI+9	SPD+12	ACC+13	HP+366	From: 光人造人
-2: set:暴走	main:SPD+39			Attr:	HP+103	HP%+12	DEF%+18	ATK+9	From: 火舞女
-3: set:暴走	main:DEF+99	Pri:ACC+5	Attr:	DEF%+12	SPD+13	HP%+4	RES+3	From: 风方
-4: set:忍耐	main:HP%+63			Attr:	SPD+13	CRI+4	RES+17	DEF%+15	From: 暗莽
-5: set:忍耐	main:HP+1530	Pri:DEF+13	Attr:	HP%+16	DEF%+20	SPD+14	ATK+9	From: 风萝莉
-6: set:暴走	main:ACC+64			Attr:	ATK%+15	DEF%+21	CRIDMG+5	HP%+7	From: 水海盗
-36   风哈格   1590408755
-now: 1435.7762 	DPS: 338.5276 	EHP: 1373 	EHPDPS: 1363.5225 	SPD: 153 	HP: 21754 	ATK: 774 	DEF: 2386 	CRI: 35 	CRIDMG: 68 	ACC: 43 	RES: 62
-find: 1948.5343   DPS: 256.4588   EHP: 1311   EHPDPS: 1159.6853   SPD: 142   HP: 20187   ATK: 792   DEF: 2463   CRI: 31   CRIDMG: 82   ACC: 55   RES: 47
-Old:
-1: set:暴走	main:ATK+118	Pri:ACC+5	Attr:	RES+20	HP+211	HP%+13	SPD+4	From: 风哈格
-2: set:暴走	main:DEF%+63			Attr:	CRI+15	HP+561	HP%+6	CRIDMG+7	From: 风哈格
-3: set:反击	main:DEF+118	Pri:ACC+6	Attr:	HP%+25	SPD+15	RES+7	CRIDMG+5	From: 风哈格
-4: set:反击	main:DEF%+63	Pri:CRI+5	Attr:	HP%+21	SPD+9	HP+820	RES+16	From: 风哈格
-5: set:暴走	main:HP+1800			Attr:	CRIDMG+6	SPD+14	ACC+7	DEF%+9	From: 风哈格
-6: set:暴走	main:DEF%+63	Pri:RES+4	Attr:	HP+315	ATK+45	ATK%+8	SPD+6	From: 风哈格
 New:
 1: set:反击	main:ATK+118			Attr:	RES+6	SPD+16	CRI+5	HP%+6	From:背包
 2: set:反击	main:DEF%+38			Attr:	RES+5	ATK%+20	HP%+12	From:背包
-3: set:韧性	main:DEF+118	Pri:ACC+6	Attr:	CRIDMG+15	RES+8	SPD+13	HP%+13	From: 暗DK
-4: set:韧性	main:DEF%+63			Attr:	CRIDMG+14	HP%+18	RES+13	SPD+4	From: 暗DK
-5: set:韧性	main:HP+1530	Pri:ACC+7	Attr:	CRI+11	DEF%+18	HP%+10	CRIDMG+3	From: 火代理
-6: set:韧性	main:DEF%+63			Attr:	ACC+17	HP%+13	DEF+10	SPD+4	From: 火哈
-37   暗DK   1830649078
-now: 2157.5742 	DPS: 335.48694 	EHP: 1420 	EHPDPS: 1380.4224 	SPD: 154 	HP: 26861 	ATK: 994 	DEF: 1944 	CRI: 26 	CRIDMG: 79 	ACC: 38 	RES: 85
-find: 2253.275   DPS: 253.49405   EHP: 1306   EHPDPS: 1150.7618   SPD: 131   HP: 24976   ATK: 842   DEF: 1919   CRI: 33   CRIDMG: 80   ACC: 48   RES: 72
-Old:
-1: set:集中	main:ATK+118	Pri:SPD+5	Attr:	ATK%+20	CRI+11	HP%+21	RES+8	From: 暗DK
-2: set:集中	main:DEF%+63			Attr:	SPD+10	ACC+4	DEF+68	HP%+20	From: 暗DK
-3: set:韧性	main:DEF+118	Pri:ACC+6	Attr:	CRIDMG+15	RES+8	SPD+13	HP%+13	From: 暗DK
-4: set:韧性	main:DEF%+63			Attr:	CRIDMG+14	HP%+18	RES+13	SPD+4	From: 暗DK
-5: set:韧性	main:HP+1530	Pri:ACC+6	Attr:	ATK%+11	HP%+16	SPD+7	RES+10	From: 暗DK
-6: set:韧性	main:HP%+63			Attr:	SPD+14	DEF%+26	RES+6	ACC+7	From: 暗DK
-New:
-1: set:韧性	main:ATK+99	Pri:CRI+3	Attr:	HP+529	ACC+12	SPD+8	CRIDMG+5	From:背包
-2: set:斗志	main:HP%+47			Attr:	ACC+9	CRIDMG+8	RES+16	SPD+11	From:背包
-3: set:斗志	main:DEF+99			Attr:	DEF%+14	CRIDMG+10	HP%+18	CRI+10	From: 风龙骑
-4: set:反击	main:DEF%+63	Pri:SPD+5	Attr:	HP+788	ACC+14	HP%+10	CRI+5	From: 暗大象
-5: set:韧性	main:HP+1800			Attr:	DEF%+22	CRIDMG+7	ATK%+8	ACC+13	From:背包
-6: set:反击	main:DEF%+63	Pri:ATK+20	Attr:	SPD+6	RES+16	HP+947	HP%+14	From:背包
-38   风大锤   2250799209
-now: 1883.2401 	DPS: 1075.5631 	EHP: 743 	EHPDPS: 1787.8964 	SPD: 161 	HP: 13818 	ATK: 742 	DEF: 1982 	CRI: 74 	CRIDMG: 199 	ACC: 26 	RES: 48
-find: 1974.3884   DPS: 788.8656   EHP: 925   EHPDPS: 1708.4504   SPD: 133   HP: 16115   ATK: 811   DEF: 2139   CRI: 70   CRIDMG: 147   ACC: 27   RES: 56
-Old:
-1: set:保护	main:ATK+118			Attr:	CRI+17	SPD+5	CRIDMG+7	RES+8	From: 风大锤
-2: set:集中	main:DEF%+63			Attr:	ATK+14	CRI+11	SPD+15	ACC+6	From: 风大锤
-3: set:激怒	main:DEF+118	Pri:HP%+6	Attr:	CRIDMG+17	CRI+5	DEF%+20	SPD+8	From: 风大锤
-4: set:激怒	main:CRIDMG+80			Attr:	ATK%+10	CRI+5	SPD+13	HP%+13	From: 风大锤
-5: set:激怒	main:HP+2448	Pri:CRIDMG+5	Attr:	DEF%+11	SPD+13	CRI+11	DEF+44	From: 风大锤
-6: set:激怒	main:DEF%+50			Attr:	CRI+10	ATK+37	ACC+20	SPD+9	From: 风大锤
-New:
-1: set:意志	main:ATK+118	Pri:HP+227	Attr:	HP%+14	RES+16	CRI+10	ATK%+7	From:背包
-2: set:集中	main:DEF%+63			Attr:	ATK+14	CRI+11	SPD+15	ACC+6	From: 风大锤
 3: set:意志	main:DEF+118			Attr:	CRI+5	CRIDMG+11	HP%+23	HP+350	From:背包
-4: set:集中	main:CRIDMG+80			Attr:	CRI+12	DEF%+16	SPD+6	ATK%+11	From: 
-5: set:守护	main:HP+1800			Attr:	CRIDMG+6	ATK%+10	SPD+8	DEF%+29	From: 
-6: set:守护	main:DEF%+38	Pri:SPD+6	Attr:	CRI+17	ACC+6	ATK+19	From:背包
-39   水刺客   2478730055
-now: 2367.5903 	DPS: 1268.3284 	EHP: 522 	EHPDPS: 1627.3506 	SPD: 209 	HP: 19431 	ATK: 1672 	DEF: 824 	CRI: 65 	CRIDMG: 154 	ACC: 32 	RES: 27
-find: 2062.024   DPS: 1252.279   EHP: 484   EHPDPS: 1557.0524   SPD: 214   HP: 19854   ATK: 1722   DEF: 717   CRI: 86   CRIDMG: 99   ACC: 54   RES: 46
-Old:
-1: set:斗志	main:ATK+118			Attr:	HP%+11	SPD+20	CRI+12	ACC+7	From: 水刺客
-2: set:斗志	main:SPD+42	Pri:ATK+19	Attr:	DEF%+14	CRI+10	DEF+51	CRIDMG+6	From: 水刺客
-3: set:斗志	main:DEF+118	Pri:RES+6	Attr:	SPD+15	HP%+14	CRIDMG+11	CRI+6	From: 水刺客
-4: set:斗志	main:CRIDMG+80	Pri:CRI+6	Attr:	SPD+9	HP+1348	HP%+14	RES+6	From: 水刺客
-5: set:斗志	main:HP+1800			Attr:	ATK%+26	SPD+14	CRIDMG+7	CRI+10	From: 水刺客
-6: set:斗志	main:ATK%+63			Attr:	HP+978	CRI+6	SPD+7	DEF%+13	From: 水刺客
-New:
-1: set:迅速	main:ATK+99	Pri:RES+7	Attr:	SPD+17	CRIDMG+4	ATK%+16	HP%+12	From: 风格
-2: set:集中	main:SPD+39			Attr:	HP%+11	ACC+10	ATK%+22	RES+10	From:背包
-3: set:迅速	main:DEF+118	Pri:RES+7	Attr:	HP%+14	SPD+15	CRI+5	CRIDMG+6	From: 
-4: set:迅速	main:CRI+58			Attr:	CRIDMG+10	DEF+27	SPD+5	HP+324	From: 
-5: set:迅速	main:HP+1800	Pri:CRIDMG+4	Attr:	HP%+12	SPD+11	CRI+10	RES+7	From:背包
-6: set:集中	main:ATK%+63			Attr:	ACC+4	HP%+13	CRIDMG+25	DEF+47	From: 水炸弹
-40   风龙骑   2350714359
-now: 2336.4941 	DPS: 545.1812 	EHP: 1107 	EHPDPS: 1553.7253 	SPD: 108 	HP: 29619 	ATK: 1234 	DEF: 1276 	CRI: 78 	CRIDMG: 155 	ACC: 51 	RES: 69
-find: 2329.0857   DPS: 344.73822   EHP: 1571   EHPDPS: 1471.8475   SPD: 127   HP: 37447   ATK: 1309   DEF: 1474   CRI: 44   CRIDMG: 72   ACC: 36   RES: 48
-Old:
-1: set:刀刃	main:ATK+135	Pri:HP%+6	Attr:	HP+433	CRI+12	CRIDMG+9	ATK%+12	From: 风龙骑
-2: set:斗志	main:DEF%+63			Attr:	HP%+24	RES+12	CRI+12	HP+313	From: 风龙骑
-3: set:斗志	main:DEF+99			Attr:	DEF%+14	CRIDMG+10	HP%+18	CRI+10	From: 风龙骑
-4: set:刀刃	main:CRIDMG+80			Attr:	HP%+12	RES+9	ACC+16	ATK%+31	From: 风龙骑
-5: set:斗志	main:HP+1800			Attr:	CRIDMG+6	ACC+13	SPD+8	CRI+17	From: 风龙骑
-6: set:斗志	main:HP%+63			Attr:	DEF+14	RES+8	ACC+22	ATK%+11	From: 风龙骑
-New:
-1: set:集中	main:ATK+118	Pri:SPD+5	Attr:	ATK%+20	CRI+11	HP%+21	RES+8	From: 暗DK
-2: set:意志	main:HP%+63	Pri:DEF+18	Attr:	SPD+9	HP+553	CRIDMG+13	ACC+6	From: 风方
-3: set:集中	main:DEF+160	Pri:SPD+5	Attr:	ACC+15	HP%+17	DEF%+20	HP+674	From: 风猴子
-4: set:应报	main:DEF%+38			Attr:	CRIDMG+9	HP%+14	CRI+9	From:背包
+4: set:反击	main:DEF%+63			Attr:	HP+242	ACC+22	RES+7	CRI+4	From:背包
 5: set:意志	main:HP+1440	Pri:HP%+7	Attr:	DEF+14	CRI+9	ATK%+22	From:背包
-6: set:应报	main:HP%+47			Attr:	ATK%+19	DEF+28	DEF%+14	SPD+8	From:背包
-41   火哈   1357116794
-now: 2410.9036 	DPS: 254.06905 	EHP: 730 	EHPDPS: 861.3255 	SPD: 153 	HP: 17166 	ATK: 774 	DEF: 1499 	CRI: 24 	CRIDMG: 75 	ACC: 63 	RES: 39
-find: 2474.226   DPS: 304.5203   EHP: 773   EHPDPS: 970.34875   SPD: 163   HP: 30651   ATK: 802   DEF: 753   CRI: 37   CRIDMG: 76   ACC: 61   RES: 51
+6: set:反击	main:HP%+63	Pri:CRI+4	Attr:	ATK+43	SPD+6	DEF%+9	CRIDMG+4	From:背包
+50   火代理   1237436136
+now: 687.93823 	DPS: 145.13672 	EHP: 221 	EHPDPS: 358.1911 	SPD: 104 	HP: 11535 	ATK: 714 	DEF: 494 	CRI: 15 	CRIDMG: 50 	ACC: 0 	RES: 15
+find: 2231.296   DPS: 540.5129   EHP: 706   EHPDPS: 1235.479   SPD: 201   HP: 29615   ATK: 1014   DEF: 694   CRI: 27   CRIDMG: 55   ACC: 55   RES: 46
 Old:
-1: set:反击	main:ATK+118	Pri:ATK%+8	Attr:	RES+12	ACC+18	CRIDMG+11	SPD+5	From: 火哈
-2: set:反击	main:DEF%+63	Pri:ATK%+7	Attr:	SPD+11	CRIDMG+11	ACC+10	ATK+17	From: 火哈
-3: set:韧性	main:DEF+99	Pri:HP%+4	Attr:	SPD+9	ACC+14	RES+12	CRIDMG+3	From: 火哈
-4: set:反击	main:DEF%+63			Attr:	SPD+18	ACC+4	ATK+16	DEF+11	From: 火哈
-5: set:反击	main:HP+1530	Pri:DEF+11	Attr:	ATK%+9	HP%+22	CRI+9	ATK+10	From: 火哈
-6: set:韧性	main:DEF%+63			Attr:	ACC+17	HP%+13	DEF+10	SPD+4	From: 火哈
 New:
-1: set:反击	main:ATK+118	Pri:ATK%+8	Attr:	RES+12	ACC+18	CRIDMG+11	SPD+5	From: 火哈
-2: set:反击	main:SPD+39	Pri:CRIDMG+4	Attr:	HP%+16	CRI+7	ATK%+11	DEF+31	From: 
-3: set:反击	main:DEF+94			Attr:	CRIDMG+7	HP%+5	ACC+23	CRI+11	From:背包
-4: set:韧性	main:HP%+38			Attr:	ACC+14	RES+14	DEF%+13	From:背包
-5: set:韧性	main:HP+1530	Pri:ACC+6	Attr:	ATK%+11	HP%+16	SPD+7	RES+10	From: 暗DK
-6: set:反击	main:HP%+63	Pri:CRI+4	Attr:	ATK+43	SPD+6	DEF%+9	CRIDMG+4	From: 
-42   火代理   1237436136
-now: 2205.1582 	DPS: 618.5013 	EHP: 933 	EHPDPS: 1519.2915 	SPD: 188 	HP: 28016 	ATK: 1149 	DEF: 1101 	CRI: 40 	CRIDMG: 60 	ACC: 7 	RES: 41
-find: 2278.8389   DPS: 573.337   EHP: 802   EHPDPS: 1356.1951   SPD: 204   HP: 30638   ATK: 1063   DEF: 795   CRI: 29   CRIDMG: 50   ACC: 49   RES: 40
+1: set:暴走	main:ATK+99			Attr:	CRI+8	ACC+4	SPD+14	RES+13	From:背包
+2: set:暴走	main:SPD+42			Attr:	ATK%+11	RES+10	DEF+16	CRIDMG+5	From:背包
+3: set:暴走	main:DEF+118			Attr:	HP+453	RES+8	SPD+13	HP%+7	From:背包
+4: set:守护	main:HP%+38	Pri:ATK+11	Attr:	ACC+18	SPD+9	ATK%+8	From:背包
+5: set:暴走	main:HP+1530			Attr:	DEF%+5	SPD+8	ACC+13	CRI+4	From:背包
+6: set:猛攻	main:HP%+63			Attr:	SPD+11	HP+236	ACC+20	ATK+19	From: 
+51   风大锤   2250799209
+now: 494.05927 	DPS: 128.54613 	EHP: 227 	EHPDPS: 341.6429 	SPD: 98 	HP: 9555 	ATK: 483 	DEF: 692 	CRI: 15 	CRIDMG: 50 	ACC: 0 	RES: 40
+find: 2255.271   DPS: 1002.9305   EHP: 1248   EHPDPS: 2237.5498   SPD: 159   HP: 19496   ATK: 738   DEF: 2424   CRI: 78   CRIDMG: 69   ACC: 43   RES: 40
 Old:
-1: set:暴走	main:ATK+99			Attr:	SPD+5	RES+4	HP%+29	HP+170	From: 火代理
-2: set:暴走	main:SPD+39	Pri:DEF%+6	Attr:	ATK%+11	RES+10	ATK+9	CRI+5	From: 火代理
-3: set:暴走	main:DEF+118			Attr:	SPD+14	HP+304	RES+12	CRI+5	From: 火代理
-4: set:暴走	main:HP%+63			Attr:	SPD+10	ATK%+12	ATK+34	DEF+18	From: 火代理
-5: set:韧性	main:HP+1530	Pri:ACC+7	Attr:	CRI+11	DEF%+18	HP%+10	CRIDMG+3	From: 火代理
-6: set:韧性	main:DEF%+63	Pri:CRIDMG+7	Attr:	SPD+16	ATK%+13	HP%+19	CRI+4	From: 火代理
 New:
-1: set:暴走	main:ATK+99			Attr:	CRI+8	ACC+4	SPD+14	RES+13	From: 风方
-2: set:祝福	main:SPD+42			Attr:	DEF%+13	ACC+12	DEF+53	ATK+26	From: 火精灵
-3: set:暴走	main:DEF+99			Attr:	ACC+7	SPD+13	DEF%+10	HP+118	From: 火鞭
-4: set:祝福	main:HP%+63	Pri:CRI+6	Attr:	ATK%+15	SPD+18	RES+7	ACC+6	From: 风舞女
-5: set:暴走	main:HP+1530	Pri:HP%+4	Attr:	SPD+13	RES+5	ATK+10	ACC+3	From: 风方
-6: set:暴走	main:HP%+63			Attr:	ATK+14	ACC+17	ATK%+8	HP+210	From:背包
-43   风牛   1633085506
-now: 677.57214 	DPS: 429.86542 	EHP: 972 	EHPDPS: 1292.7942 	SPD: 120 	HP: 27428 	ATK: 1557 	DEF: 1193 	CRI: 37 	CRIDMG: 165 	ACC: 34 	RES: 36
-find: 1706.5383   DPS: 1495.3035   EHP: 460   EHPDPS: 1658.7219   SPD: 205   HP: 17154   ATK: 2025   DEF: 822   CRI: 75   CRIDMG: 134   ACC: 51   RES: 36
+1: set:守护	main:ATK+118	Pri:HP+228	Attr:	SPD+8	ACC+23	HP%+17	CRIDMG+5	From:背包
+2: set:集中	main:DEF%+63			Attr:	SPD+10	ACC+4	DEF+68	HP%+20	From:背包
+3: set:守护	main:DEF+99	Pri:CRI+5	Attr:	HP%+7	SPD+12	DEF%+17	CRIDMG+8	From:背包
+4: set:意志	main:CRI+58	Pri:ATK%+7	Attr:	SPD+12	DEF%+12	ACC+12	HP%+14	From:背包
+5: set:守护	main:HP+1800			Attr:	CRIDMG+6	ATK%+10	SPD+8	DEF%+36	From:背包
+6: set:守护	main:DEF%+63	Pri:ATK+13	Attr:	HP%+16	ACC+4	SPD+11	HP+195	From:背包
+52   水炸弹   929498411
+now: 438.45612 	DPS: 157.122 	EHP: 184 	EHPDPS: 340.06146 	SPD: 99 	HP: 8565 	ATK: 812 	DEF: 593 	CRI: 15 	CRIDMG: 50 	ACC: 0 	RES: 15
+find: 2016.4237   DPS: 824.47424   EHP: 412   EHPDPS: 1165.6472   SPD: 151   HP: 13198   ATK: 2433   DEF: 1012   CRI: 33   CRIDMG: 71   ACC: 100   RES: 19
 Old:
-1: set:猛攻	main:ATK+118			Attr:	CRIDMG+11	ATK%+13	HP+440	RES+4	From: 风牛
-2: set:绝望	main:HP%+63	Pri:DEF%+8	Attr:	ATK%+13	HP+432	CRIDMG+5	DEF+10	From: 风牛
-3: set:忍耐	main:DEF+118			Attr:	CRIDMG+19	RES+10	SPD+10	DEF%+6	From: 风牛
-4: set:猛攻	main:CRIDMG+80			Attr:	HP%+18	CRI+5	ATK%+9	ACC+5	From: 风牛
-5: set:猛攻	main:HP+1800			Attr:	ATK+36	ACC+14	HP%+21	CRI+5	From: 风牛
-6: set:猛攻	main:DEF%+63	Pri:HP%+7	Attr:	ACC+15	CRI+12	RES+7	DEF+13	From: 风牛
+New:
+1: set:绝望	main:ATK+160	Pri:SPD+6	Attr:	ATK%+28	HP%+13	CRI+5	RES+4	From:背包
+2: set:绝望	main:ATK%+47			Attr:	SPD+10	DEF%+18	DEF+13	CRIDMG+5	From:背包
+3: set:绝望	main:DEF+118			Attr:	ACC+21	SPD+6	DEF%+19	CRI+4	From:背包
+4: set:忍耐	main:ATK%+47			Attr:	ACC+15	ATK+16	CRI+4	SPD+6	From:背包
+5: set:绝望	main:HP+1800			Attr:	HP%+8	CRIDMG+16	SPD+9	ATK%+13	From:背包
+6: set:应报	main:ACC+64	Pri:CRI+5	Attr:	DEF+27	HP+387	SPD+15	ATK%+11	From:背包
+53   风代理   1646555832
+now: 688.09344 	DPS: 138.42874 	EHP: 225 	EHPDPS: 352.96722 	SPD: 104 	HP: 10380 	ATK: 681 	DEF: 604 	CRI: 15 	CRIDMG: 50 	ACC: 0 	RES: 15
+find: 2206.7239   DPS: 460.06616   EHP: 833   EHPDPS: 1238.1198   SPD: 177   HP: 28643   ATK: 934   DEF: 920   CRI: 38   CRIDMG: 54   ACC: 57   RES: 39
+Old:
+New:
+1: set:暴走	main:ATK+99			Attr:	SPD+14	CRIDMG+4	HP+402	ACC+5	From:背包
+2: set:暴走	main:SPD+39			Attr:	HP+168	ACC+12	CRI+12	ATK%+4	From:背包
+3: set:暴走	main:DEF+99			Attr:	ACC+7	SPD+13	DEF%+10	HP+118	From:背包
+4: set:韧性	main:HP%+63			Attr:	ACC+14	RES+14	DEF%+20	HP+296	From:背包
+5: set:韧性	main:HP+1530	Pri:ACC+6	Attr:	ATK%+11	HP%+16	SPD+7	RES+10	From:背包
+6: set:暴走	main:HP%+63			Attr:	HP+490	ACC+13	CRI+11	ATK+16	From:背包
+54   风温   928164310
+now: 579.0506 	DPS: 103.01235 	EHP: 261 	EHPDPS: 327.9404 	SPD: 96 	HP: 10875 	ATK: 549 	DEF: 703 	CRI: 15 	CRIDMG: 50 	ACC: 0 	RES: 15
+find: 1637.7616   DPS: 381.2314   EHP: 1278   EHPDPS: 1396.0139   SPD: 221   HP: 27922   ATK: 802   DEF: 1638   CRI: 30   CRIDMG: 61   ACC: 13   RES: 36
+Old:
+New:
+1: set:迅速	main:ATK+118			Attr:	RES+4	HP+214	SPD+21	CRIDMG+6	From:背包
+2: set:迅速	main:SPD+39	Pri:HP+248	Attr:	ATK%+4	DEF%+19	DEF+23	ACC+7	From:背包
+3: set:祝福	main:DEF+99			Attr:	HP%+12	SPD+14	CRIDMG+5	DEF%+10	From:背包
+4: set:祝福	main:DEF%+63	Pri:SPD+5	Attr:	HP+761	HP%+14	CRI+6	RES+11	From:背包
+5: set:迅速	main:HP+1800	Pri:ACC+6	Attr:	HP%+19	DEF+53	SPD+10	RES+6	From: 火上
+6: set:迅速	main:HP%+63			Attr:	CRI+9	SPD+11	DEF%+11	ATK%+13	From: 火上
+55   风上   927214803
+now: 456.0417 	DPS: 89.03814 	EHP: 220 	EHPDPS: 279.91705 	SPD: 96 	HP: 11205 	ATK: 549 	DEF: 516 	CRI: 15 	CRIDMG: 50 	ACC: 0 	RES: 40
+find: 1667.1531   DPS: 567.1113   EHP: 1089   EHPDPS: 1571.7306   SPD: 131   HP: 38338   ATK: 797   DEF: 890   CRI: 41   CRIDMG: 69   ACC: 0   RES: 57
+Old:
+New:
+1: set:暴走	main:ATK+106	Pri:ATK%+7	Attr:	SPD+10	CRIDMG+9	HP%+10	HP+278	From:背包
+2: set:暴走	main:HP%+63	Pri:DEF%+7	Attr:	SPD+4	CRI+16	DEF+50	HP+160	From:背包
+3: set:暴走	main:DEF+118			Attr:	HP%+12	SPD+11	CRI+4	HP+219	From:背包
+4: set:保护	main:HP%+63	Pri:DEF%+6	Attr:	DEF+29	CRIDMG+10	ATK+15	RES+6	From: 
+5: set:保护	main:HP+1320			Attr:	ATK+33	HP%+7	ATK%+5	SPD+10	From: 
+6: set:暴走	main:HP%+63			Attr:	DEF+27	RES+11	DEF%+8	CRI+6	From:背包
+56   暗姨夫   1013954585
+now: 705.7152 	DPS: 150.30453 	EHP: 233 	EHPDPS: 374.27774 	SPD: 100 	HP: 9225 	ATK: 769 	DEF: 758 	CRI: 15 	CRIDMG: 50 	ACC: 25 	RES: 15
+find: 1764.7333   DPS: 420.66486   EHP: 1053   EHPDPS: 1331.105   SPD: 205   HP: 22614   ATK: 985   DEF: 1672   CRI: 27   CRIDMG: 54   ACC: 54   RES: 35
+Old:
 New:
 1: set:刀刃	main:ATK+99	Pri:CRIDMG+4	Attr:	ACC+9	HP%+7	SPD+20	ATK%+5	From:背包
-2: set:吸血	main:SPD+31	Pri:HP+172	Attr:	ATK%+17	CRI+5	ATK+48	ACC+8	From:背包
-3: set:刀刃	main:DEF+118			Attr:	DEF%+11	CRI+14	SPD+11	ACC+6	From:背包
-4: set:刀刃	main:CRIDMG+80			Attr:	HP%+12	RES+9	ACC+16	ATK%+31	From: 风龙骑
-5: set:刀刃	main:HP+2448			Attr:	CRI+8	SPD+15	RES+12	ATK%+14	From: 水和尚
-6: set:猛攻	main:ATK%+63	Pri:HP%+7	Attr:	CRI+9	ACC+12	DEF%+5	SPD+7	From: 风丑2
-44   火沙漠   2478730187
-now: 736.6239 	DPS: 138.159 	EHP: 263 	EHPDPS: 381.2391 	SPD: 99 	HP: 11205 	ATK: 714 	DEF: 681 	CRI: 15 	CRIDMG: 50 	ACC: 25 	RES: 15
-find: 2400.8079   DPS: 349.4576   EHP: 1337   EHPDPS: 1367.0769   SPD: 132   HP: 25780   ATK: 941   DEF: 1901   CRI: 39   CRIDMG: 56   ACC: 66   RES: 48
+2: set:祝福	main:SPD+42			Attr:	DEF%+13	ACC+12	DEF+53	ATK+26	From:背包
+3: set:应报	main:DEF+99			Attr:	HP%+6	RES+15	SPD+8	DEF%+9	From:背包
+4: set:祝福	main:HP%+63	Pri:DEF%+8	Attr:	HP+537	CRI+8	DEF+11	SPD+6	From: 
+5: set:忍耐	main:HP+1920	Pri:RES+5	Attr:	DEF+11	HP%+12	SPD+15	CRI+4	From:背包
+6: set:应报	main:DEF%+63			Attr:	ATK+17	SPD+14	ACC+8	HP+903	From:背包
+57   水女巫   1152447011
+now: 506.3171 	DPS: 110.3419 	EHP: 207 	EHPDPS: 302.26328 	SPD: 97 	HP: 9885 	ATK: 582 	DEF: 571 	CRI: 15 	CRIDMG: 50 	ACC: 0 	RES: 15
+find: 1378.1124   DPS: 398.2491   EHP: 859   EHPDPS: 1169.7794   SPD: 190   HP: 24717   ATK: 974   DEF: 1164   CRI: 27   CRIDMG: 68   ACC: 61   RES: 55
 Old:
 New:
-1: set:暴走	main:ATK+118	Pri:ACC+5	Attr:	RES+20	HP+211	HP%+13	SPD+4	From: 风哈格
-2: set:暴走	main:HP%+63	Pri:DEF%+7	Attr:	SPD+4	CRI+16	DEF+50	HP+160	From: 风和尚
-3: set:保护	main:DEF+94	Pri:DEF%+8	Attr:	HP%+21	SPD+11	CRI+4	From:背包
-4: set:暴走	main:DEF%+63	Pri:HP+138	Attr:	DEF+16	ATK+18	ACC+23	ATK%+7	From:背包
-5: set:暴走	main:HP+1530			Attr:	DEF%+5	SPD+8	ACC+13	CRI+4	From: 火鞭
-6: set:保护	main:DEF%+63	Pri:HP%+6	Attr:	RES+13	SPD+6	HP+475	CRIDMG+6	From: 暗姨夫
-45   水炸弹   929498411
-now: 1118.7507 	DPS: 875.01355 	EHP: 604 	EHPDPS: 1453.9713 	SPD: 170 	HP: 20216 	ATK: 1829 	DEF: 954 	CRI: 66 	CRIDMG: 83 	ACC: 17 	RES: 35
-find: 1988.2375   DPS: 758.749   EHP: 459   EHPDPS: 1180.281   SPD: 145   HP: 13839   ATK: 2459   DEF: 1097   CRI: 24   CRIDMG: 71   ACC: 71   RES: 19
+1: set:集中	main:ATK+118			Attr:	CRIDMG+12	SPD+17	HP+320	ATK%+6	From: 
+2: set:集中	main:SPD+39			Attr:	HP%+14	ACC+10	ATK%+22	RES+10	From:背包
+3: set:祝福	main:DEF+118	Pri:HP+163	Attr:	SPD+16	DEF%+8	ACC+5	HP%+6	From:背包
+4: set:祝福	main:DEF%+47	Pri:ATK%+8	Attr:	RES+18	CRI+6	HP+138	ACC+20	From:背包
+5: set:猛攻	main:HP+1530	Pri:ATK%+4	Attr:	DEF%+5	SPD+11	HP%+22	CRIDMG+6	From: 
+6: set:绝望	main:HP%+63	Pri:HP+299	Attr:	SPD+10	ACC+11	RES+12	CRI+6	From:背包
+58   水狗   1385694758
+now: 744.7717 	DPS: 160.48773 	EHP: 138 	EHPDPS: 297.63943 	SPD: 115 	HP: 8565 	ATK: 714 	DEF: 362 	CRI: 15 	CRIDMG: 50 	ACC: 0 	RES: 15
+find: 2138.157   DPS: 1201.6372   EHP: 327   EHPDPS: 1253.6912   SPD: 241   HP: 13508   ATK: 1487   DEF: 710   CRI: 63   CRIDMG: 134   ACC: 10   RES: 44
 Old:
-1: set:猛攻	main:ATK+99	Pri:RES+3	Attr:	CRI+15	ATK%+11	SPD+14	HP%+12	From: 水炸弹
-2: set:忍耐	main:SPD+39	Pri:ACC+4	Attr:	CRI+5	DEF%+21	ATK+14	RES+4	From: 水炸弹
-3: set:猛攻	main:DEF+118	Pri:RES+7	Attr:	HP+780	SPD+11	CRI+14	HP%+15	From: 水炸弹
-4: set:猛攻	main:HP%+63			Attr:	ATK%+19	CRI+9	ACC+9	SPD+7	From: 水炸弹
-5: set:保护	main:HP+1530	Pri:DEF%+5	Attr:	RES+6	CRI+8	ATK%+14	CRIDMG+8	From: 水炸弹
-6: set:集中	main:ATK%+63			Attr:	ACC+4	HP%+13	CRIDMG+25	DEF+47	From: 水炸弹
-New:
-1: set:绝望	main:ATK+160	Pri:SPD+6	Attr:	ATK%+28	HP%+13	CRI+5	RES+4	From: 水蝴蝶
-2: set:绝望	main:ATK%+47			Attr:	SPD+10	DEF%+18	DEF+13	CRIDMG+5	From:背包
-3: set:绝望	main:DEF+118	Pri:CRI+4	Attr:	DEF%+21	SPD+4	HP%+7	ACC+7	From: 
-4: set:保护	main:ATK%+63			Attr:	DEF%+11	DEF+17	SPD+11	ATK+45	From: 暗姨夫
-5: set:绝望	main:HP+1800			Attr:	HP%+8	CRIDMG+16	SPD+9	ATK%+13	From:背包
-6: set:保护	main:ACC+48	Pri:SPD+6	Attr:	DEF+18	ATK+46	HP%+5	ATK%+5	From: 
-46   火上   1181560653
-now: 1818.6831 	DPS: 357.663 	EHP: 817 	EHPDPS: 1081.1302 	SPD: 222 	HP: 27205 	ATK: 758 	DEF: 961 	CRI: 26 	CRIDMG: 65 	ACC: 21 	RES: 50
-find: 1864.0233   DPS: 408.4662   EHP: 1099   EHPDPS: 1340.0065   SPD: 222   HP: 26098   ATK: 811   DEF: 1480   CRI: 42   CRIDMG: 59   ACC: 11   RES: 27
-Old:
-1: set:迅速	main:ATK+64	Pri:RES+4	Attr:	ATK%+9	CRI+3	SPD+10	From: 火上
-2: set:迅速	main:SPD+39			Attr:	HP%+13	DEF%+7	ATK+12	RES+3	From: 火上
-3: set:意志	main:DEF+118			Attr:	SPD+9	ACC+12	RES+9	CRI+4	From: 火上
-4: set:迅速	main:HP%+51	Pri:CRI+4	Attr:	RES+8	CRIDMG+11	DEF+13	SPD+5	From: 火上
-5: set:意志	main:HP+1530	Pri:ATK+13	Attr:	DEF%+11	SPD+10	DEF+24	ACC+3	From: 火上
-6: set:迅速	main:HP%+51			Attr:	ACC+6	SPD+13	RES+11	CRIDMG+4	From: 火上
-New:
-1: set:应报	main:ATK+94			Attr:	HP+331	ATK%+6	SPD+16	From:背包
-2: set:保护	main:SPD+29			Attr:	CRI+15	ACC+3	RES+4	DEF%+14	From:背包
-3: set:祝福	main:DEF+99			Attr:	HP%+12	SPD+14	CRIDMG+5	DEF%+10	From:背包
-4: set:祝福	main:HP%+63	Pri:RES+8	Attr:	ATK+53	SPD+13	DEF%+19	HP+186	From: 风和尚
-5: set:保护	main:HP+1800			Attr:	DEF+11	CRI+12	SPD+15	CRIDMG+4	From: 
-6: set:应报	main:DEF%+47			Attr:	ATK+17	SPD+14	ACC+8	HP+903	From:背包
-47   风温   928164310
-now: 1706.8636 	DPS: 385.27255 	EHP: 899 	EHPDPS: 1177.0472 	SPD: 183 	HP: 29277 	ATK: 792 	DEF: 989 	CRI: 21 	CRIDMG: 72 	ACC: 21 	RES: 36
-find: 1764.8281   DPS: 560.5626   EHP: 837   EHPDPS: 1369.9502   SPD: 208   HP: 24392   ATK: 1263   DEF: 1146   CRI: 28   CRIDMG: 62   ACC: 43   RES: 55
-Old:
-1: set:暴走	main:ATK+160			Attr:	CRIDMG+8	HP%+7	SPD+15	RES+4	From: 风温
-2: set:暴走	main:SPD+39	Pri:HP%+6	Attr:	ATK+14	ACC+16	HP+178	DEF%+7	From: 风温
-3: set:意志	main:DEF+118			Attr:	HP+253	SPD+17	ACC+5	DEF%+7	From: 风温
-4: set:暴走	main:HP%+63			Attr:	CRI+6	ATK+39	SPD+6	HP+298	From: 风温
-5: set:暴走	main:HP+1440			Attr:	HP%+13	CRIDMG+14	ATK+15	From: 风温
-6: set:意志	main:HP%+51			Attr:	DEF%+4	RES+17	SPD+10	ATK+15	From: 风温
-New:
-1: set:迅速	main:ATK+118			Attr:	ATK%+11	ACC+9	HP%+18	SPD+15	From: 水海盗
-2: set:迅速	main:SPD+42			Attr:	DEF%+13	DEF+41	RES+25	ATK%+14	From: 风格
-3: set:意志	main:DEF+118			Attr:	SPD+9	ACC+12	RES+9	CRI+4	From: 火上
-4: set:意志	main:ATK%+38	Pri:DEF%+7	Attr:	CRIDMG+12	ACC+16	HP+194	From:背包
-5: set:迅速	main:HP+1800	Pri:ACC+6	Attr:	HP%+19	DEF+53	SPD+10	RES+6	From: 火狗头
-6: set:迅速	main:HP%+63			Attr:	CRI+9	SPD+11	DEF%+7	ATK%+13	From: 火狗头
-48   暗姨夫   1013954585
-now: 1544.4882 	DPS: 577.7625 	EHP: 842 	EHPDPS: 1394.9567 	SPD: 168 	HP: 18047 	ATK: 1443 	DEF: 1677 	CRI: 42 	CRIDMG: 74 	ACC: 44 	RES: 47
-find: 1799.1464   DPS: 502.92783   EHP: 855   EHPDPS: 1311.4927   SPD: 240   HP: 18946   ATK: 994   DEF: 1611   CRI: 29   CRIDMG: 55   ACC: 56   RES: 38
-Old:
-1: set:保护	main:ATK+99	Pri:CRI+3	Attr:	SPD+9	HP%+14	CRIDMG+7	ACC+5	From: 暗姨夫
-2: set:忍耐	main:SPD+42			Attr:	HP%+15	HP+788	DEF+11	ATK+10	From: 暗姨夫
-3: set:保护	main:DEF+118			Attr:	CRI+20	HP+222	RES+4	ACC+14	From: 暗姨夫
-4: set:保护	main:ATK%+63			Attr:	DEF%+11	DEF+17	SPD+11	ATK+45	From: 暗姨夫
-5: set:忍耐	main:HP+1920	Pri:CRI+4	Attr:	HP%+18	DEF%+19	CRIDMG+11	DEF+27	From: 暗姨夫
-6: set:保护	main:DEF%+63	Pri:HP%+6	Attr:	RES+13	SPD+6	HP+475	CRIDMG+6	From: 暗姨夫
 New:
 1: set:迅速	main:ATK+118			Attr:	RES+14	HP+216	SPD+14	CRI+10	From:背包
-2: set:迅速	main:SPD+39	Pri:HP+248	Attr:	ATK%+4	DEF%+19	DEF+23	ACC+7	From: 
-3: set:迅速	main:DEF+118			Attr:	SPD+21	HP+145	RES+6	CRIDMG+5	From: 风格
-4: set:反击	main:DEF%+63			Attr:	SPD+18	ACC+4	ATK+16	DEF+11	From: 火哈
-5: set:迅速	main:HP+1530	Pri:RES+3	Attr:	SPD+12	CRI+4	HP%+11	DEF%+5	From: 水女巫
-6: set:猛攻	main:HP%+63			Attr:	SPD+11	HP+236	ACC+20	ATK+19	From: 火姨夫
-49   水女巫   1152447011
-now: 1426.8259 	DPS: 468.5184 	EHP: 699 	EHPDPS: 1144.5425 	SPD: 220 	HP: 26758 	ATK: 996 	DEF: 793 	CRI: 32 	CRIDMG: 55 	ACC: 83 	RES: 31
-find: 1396.0587   DPS: 365.17383   EHP: 1057   EHPDPS: 1242.5598   SPD: 185   HP: 27497   ATK: 954   DEF: 1322   CRI: 23   CRIDMG: 60   ACC: 49   RES: 34
-Old:
-1: set:祝福	main:ATK+118	Pri:ATK%+8	Attr:	SPD+15	HP%+8	CRI+5	ACC+8	From: 水女巫
-2: set:祝福	main:SPD+39	Pri:CRI+5	Attr:	HP%+18	CRIDMG+5	HP+153	RES+7	From: 水女巫
-3: set:迅速	main:DEF+99	Pri:CRI+3	Attr:	HP%+11	ACC+7	SPD+15	DEF%+7	From: 水女巫
-4: set:迅速	main:HP%+50	Pri:ATK+16	Attr:	ATK%+33	SPD+6	HP+337	ACC+4	From: 水女巫
-5: set:迅速	main:HP+1530	Pri:RES+3	Attr:	SPD+12	CRI+4	HP%+11	DEF%+5	From: 水女巫
-6: set:迅速	main:ACC+48			Attr:	RES+6	SPD+11	HP%+19	DEF+19	From: 水女巫
-New:
-1: set:迅速	main:ATK+99			Attr:	ACC+13	CRI+5	SPD+10	ATK%+5	From: 
-2: set:集中	main:DEF%+63			Attr:	SPD+10	ACC+4	DEF+68	HP%+20	From: 暗DK
-3: set:迅速	main:DEF+99	Pri:CRI+3	Attr:	HP%+11	ACC+7	SPD+15	DEF%+7	From: 水女巫
-4: set:迅速	main:HP%+50	Pri:ATK+16	Attr:	ATK%+33	SPD+6	HP+337	ACC+4	From: 水女巫
-5: set:集中	main:HP+1800	Pri:RES+8	Attr:	DEF%+26	SPD+9	HP%+5	CRIDMG+6	From: 
-6: set:迅速	main:HP%+51			Attr:	ACC+6	SPD+13	RES+11	CRIDMG+4	From: 火上
-50   水狗   1385694758
-now: 1818.5864 	DPS: 1150.6569 	EHP: 283 	EHPDPS: 1141.2903 	SPD: 173 	HP: 12162 	ATK: 1717 	DEF: 670 	CRI: 88 	CRIDMG: 77 	ACC: 42 	RES: 15
-find: 2042.9075   DPS: 1109.9459   EHP: 305   EHPDPS: 1163.6726   SPD: 210   HP: 14027   ATK: 1686   DEF: 605   CRI: 51   CRIDMG: 142   ACC: 10   RES: 53
-Old:
-1: set:暴走	main:ATK+99			Attr:	CRIDMG+14	HP+180	ATK%+7	SPD+8	From: 水狗
-2: set:反击	main:SPD+39			Attr:	CRI+9	ATK%+20	ATK+30	DEF%+13	From: 水狗
-3: set:暴走	main:DEF+118			Attr:	DEF%+19	SPD+6	CRI+4	HP+370	From: 水狗
-4: set:暴走	main:CRI+58			Attr:	ACC+18	ATK%+11	DEF+33	ATK+40	From: 水狗
-5: set:暴走	main:HP+1800			Attr:	ATK%+6	CRIDMG+7	HP%+7	ACC+8	From: 水狗
-6: set:反击	main:ATK%+63	Pri:SPD+5	Attr:	ACC+16	CRI+6	ATK+35	CRIDMG+6	From: 水狗
-New:
-1: set:吸血	main:ATK+118			Attr:	CRI+14	SPD+14	RES+8	CRIDMG+7	From: 水妞
-2: set:刀刃	main:SPD+42			Attr:	CRI+6	HP+1100	ATK%+15	ACC+6	From: 
-3: set:守护	main:DEF+118			Attr:	CRI+4	SPD+19	CRIDMG+5	HP%+11	From: 火舞女
-4: set:发扬	main:CRIDMG+47			Attr:	SPD+6	ATK+48	RES+8	From:背包
-5: set:发扬	main:HP+1530			Attr:	HP%+16	ATK%+23	SPD+8	RES+14	From:背包
-6: set:刀刃	main:ATK%+63	Pri:SPD+6	Attr:	ATK+43	DEF%+23	ACC+4	RES+8	From: 
-51   水地狱火   1295677693
-now: 1338.5002 	DPS: 670.0053 	EHP: 535 	EHPDPS: 1197.4186 	SPD: 209 	HP: 19948 	ATK: 1206 	DEF: 822 	CRI: 66 	CRIDMG: 70 	ACC: 36 	RES: 23
-find: 1489.3429   DPS: 598.85846   EHP: 546   EHPDPS: 1143.6376   SPD: 237   HP: 15951   ATK: 1074   DEF: 1143   CRI: 42   CRIDMG: 70   ACC: 4   RES: 28
-Old:
-1: set:迅速	main:ATK+99	Pri:ACC+4	Attr:	CRIDMG+4	CRI+3	ATK%+14	SPD+16	From: 水地狱火
-2: set:迅速	main:SPD+42	Pri:DEF%+5	Attr:	HP+754	ATK+50	CRI+4	CRIDMG+5	From: 水地狱火
-3: set:迅速	main:DEF+78	Pri:CRI+5	Attr:	SPD+16	CRIDMG+4	DEF%+7	From: 水地狱火
-4: set:刀刃	main:HP%+47			Attr:	ATK+15	SPD+4	CRI+21	ACC+14	From: 水地狱火
-5: set:迅速	main:HP+1800	Pri:ATK%+7	Attr:	ACC+18	SPD+5	RES+8	CRIDMG+7	From: 水地狱火
-6: set:刀刃	main:HP%+63	Pri:ATK%+8	Attr:	DEF%+11	DEF+26	CRI+6	SPD+4	From: 水地狱火
-New:
-1: set:迅速	main:ATK+99	Pri:ACC+4	Attr:	CRIDMG+4	CRI+3	ATK%+14	SPD+16	From: 水地狱火
-2: set:迅速	main:SPD+42	Pri:DEF%+5	Attr:	HP+754	ATK+50	CRI+4	CRIDMG+5	From: 水地狱火
+2: set:刀刃	main:SPD+42			Attr:	CRI+6	HP+1100	ATK%+15	ACC+6	From:背包
 3: set:迅速	main:DEF+118			Attr:	CRI+6	SPD+18	DEF%+6	HP+152	From:背包
-4: set:迅速	main:HP%+51	Pri:CRI+4	Attr:	RES+8	CRIDMG+11	DEF+13	SPD+5	From: 火上
-5: set:忍耐	main:HP+1920	Pri:RES+5	Attr:	DEF+11	HP%+12	SPD+15	CRI+4	From: 光丁
-6: set:绝望	main:DEF%+63			Attr:	SPD+19	CRI+6	DEF+23	HP%+7	From: 火方
-52   光犬   942802627
-now: 1650.6177 	DPS: 392.35504 	EHP: 788 	EHPDPS: 1112.0715 	SPD: 142 	HP: 26910 	ATK: 749 	DEF: 929 	CRI: 72 	CRIDMG: 83 	ACC: 109 	RES: 45
-find: 1945.9658   DPS: 287.3169   EHP: 751   EHPDPS: 929.03174   SPD: 196   HP: 18032   ATK: 696   DEF: 1462   CRI: 24   CRIDMG: 66   ACC: 86   RES: 45
+4: set:迅速	main:CRIDMG+59	Pri:ATK+14	Attr:	SPD+10	DEF%+14	DEF+33	CRI+4	From:背包
+5: set:迅速	main:HP+1800	Pri:CRIDMG+4	Attr:	HP%+12	SPD+11	CRI+10	RES+7	From:背包
+6: set:刀刃	main:ATK%+63	Pri:SPD+6	Attr:	ATK+43	DEF%+23	ACC+4	RES+8	From:背包
+59   水地狱火   1295677693
+now: 581.994 	DPS: 147.8809 	EHP: 149 	EHPDPS: 296.87878 	SPD: 97 	HP: 7410 	ATK: 780 	DEF: 538 	CRI: 15 	CRIDMG: 50 	ACC: 0 	RES: 15
+find: 1487.2833   DPS: 529.66516   EHP: 445   EHPDPS: 970.98096   SPD: 236   HP: 16530   ATK: 1021   DEF: 827   CRI: 38   CRIDMG: 55   ACC: 0   RES: 97
 Old:
-1: set:暴走	main:ATK+99			Attr:	ACC+10	HP%+10	RES+11	SPD+7	From: 光犬
-2: set:反击	main:HP%+63	Pri:SPD+4	Attr:	ACC+6	CRI+19	ATK%+8	CRIDMG+6	From: 光犬
-3: set:暴走	main:DEF+118	Pri:CRIDMG+7	Attr:	ACC+17	RES+11	CRI+6	HP%+7	From: 光犬
-4: set:暴走	main:HP%+63	Pri:CRI+6	Attr:	DEF%+5	ATK%+20	ATK+10	CRIDMG+5	From: 光犬
-5: set:反击	main:HP+1800	Pri:CRI+5	Attr:	CRIDMG+5	SPD+17	ACC+12	RES+8	From: 光犬
-6: set:暴走	main:ACC+64	Pri:SPD+6	Attr:	HP+442	CRIDMG+10	DEF%+8	CRI+21	From: 光犬
+New:
+1: set:守护	main:ATK+94			Attr:	RES+8	SPD+14	HP+284	From:背包
+2: set:迅速	main:SPD+42	Pri:DEF%+5	Attr:	HP+754	ATK+50	CRI+4	CRIDMG+5	From:背包
+3: set:迅速	main:DEF+118			Attr:	HP+179	SPD+15	DEF%+5	RES+7	From:背包
+4: set:迅速	main:HP%+38			Attr:	SPD+9	CRI+9	ATK+31	From:背包
+5: set:迅速	main:HP+1530	Pri:RES+3	Attr:	SPD+12	CRI+4	HP%+11	DEF%+5	From:背包
+6: set:集中	main:RES+48	Pri:DEF+11	Attr:	CRI+6	SPD+22	DEF%+7	HP%+5	From:背包
+60   光犬   942802627
+now: 613.78174 	DPS: 99.6349 	EHP: 232 	EHPDPS: 304.0743 	SPD: 108 	HP: 9885 	ATK: 472 	DEF: 681 	CRI: 15 	CRIDMG: 50 	ACC: 0 	RES: 15
+find: 1733.6665   DPS: 325.33112   EHP: 876   EHPDPS: 1067.6892   SPD: 194   HP: 22512   ATK: 699   DEF: 1343   CRI: 45   CRIDMG: 71   ACC: 54   RES: 35
+Old:
 New:
 1: set:反击	main:ATK+78			Attr:	SPD+12	ATK%+4	HP+196	HP%+8	From:背包
-2: set:吸血	main:SPD+42	Pri:RES+8	Attr:	HP%+15	CRIDMG+10	DEF%+14	HP+231	From:背包
-3: set:应报	main:DEF+99			Attr:	HP%+6	RES+15	SPD+8	DEF%+9	From:背包
-4: set:反击	main:DEF%+63			Attr:	HP+242	ACC+22	RES+7	CRI+4	From:背包
-5: set:猛攻	main:HP+1530	Pri:ATK%+4	Attr:	DEF%+5	SPD+11	HP%+22	CRIDMG+6	From: 
-6: set:应报	main:ACC+48	Pri:CRI+5	Attr:	DEF+27	HP+387	SPD+15	ATK%+11	From:背包
+2: set:迅速	main:SPD+39	Pri:DEF+12	Attr:	ACC+14	RES+12	CRIDMG+4	DEF%+5	From:背包
+3: set:迅速	main:DEF+99			Attr:	SPD+5	HP%+18	ACC+16	CRIDMG+3	From:背包
+4: set:反击	main:HP%+20	Pri:ATK+17	Attr:	CRIDMG+7	CRI+11	DEF%+5	From:背包
+5: set:迅速	main:HP+1800	Pri:ATK%+7	Attr:	ACC+18	SPD+5	RES+8	CRIDMG+7	From: 
+6: set:迅速	main:DEF%+47	Pri:DEF+18	Attr:	ATK%+5	ACC+6	HP%+12	CRI+19	From: 

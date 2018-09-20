@@ -50,7 +50,7 @@ type Monster struct {
 	Name            string
 }
 type MyMonster struct {
-	ID           int
+	ID           int32
 	mon          *Monster
 	OldCRunes    CompleteRunes
 	NewCRunes    CompleteRunes
@@ -106,6 +106,8 @@ var Setname = []string{"x", "祝福", "守护", "迅速", "刀刃", "激怒", "�
 var SetBaseAttrType = []int{0, 2, 6, 8, 9, 10, 12, 11, 4}
 var SetBaseAttrValue = []float32{0, 15, 15, 25, 12, 40, 20, 20, 35}
 var myrunes []rune
+var skipBefore int32 = 46
+var skipAfter int32 = 61
 
 func main() {
 	var game Gameinfo
@@ -118,13 +120,14 @@ func main() {
 	dattmp = strings.Replace(dattmp, "\r", "", -1)
 	dattmp = strings.Replace(dattmp, "\n", "", -1)
 	dattmp = strings.Replace(dattmp, " ", "", -1)
-	dattmp = strings.Replace(dattmp, "\"runes\":{", "\"runes\": [", -1)
-	for i := 0; i < 15; i++ {
+	dattmp = strings.Replace(dattmp, "\"runes\":{", "\"runes\":[", -1)
+	for i := 0; i < 30; i++ {
 		strtmp := "\"" + strconv.Itoa(i) + "\":{\"occupied_type\":"
 		dattmp = strings.Replace(dattmp, strtmp, "{\"occupied_type\":", -1)
 	}
 	dattmp = strings.Replace(dattmp, "},\"exp_gained\":", "],\"exp_gained\":", -1)
 	dat = []byte(dattmp)
+
 	if err := json.Unmarshal(dat, &game); err != nil {
 		log.Fatal(err)
 	}
@@ -152,11 +155,19 @@ func main() {
 		log.Fatal(err)
 	}
 	for t, monster := range game.Unit_list {
+		IsSkip := false
 		for _, w := range wor {
 			str := strconv.FormatInt(monster.Unit_id, 10)
 			if str == w.Unitid {
+				if w.Id <= skipBefore || w.Id >= skipAfter {
+					IsSkip = true
+					break
+				}
 				game.Unit_list[t].Name = w.Name
 			}
+		}
+		if IsSkip {
+			continue
 		}
 		var montmp MyMonster
 		for i, r := range monster.Runes {
@@ -183,12 +194,12 @@ func main() {
 		MyMonsters = append(MyMonsters, montmp)
 	}
 
-	for id := 1; id < 53; id++ {
+	for id := skipBefore + 1; id < skipAfter; id++ {
 		var monsterworth exports.Worth
 		var monster MyMonster
 
 		for _, monsterworth = range wor {
-			if monsterworth.Id == int32(id) {
+			if monsterworth.Id == id {
 				break
 			}
 		}
@@ -409,7 +420,7 @@ func caculate(Cr CompleteRunes, monster *MyMonster) MonsterAttribute {
 	case 3:
 		Attr.DPS = (float32(Attr.ATK)*0.15 + float32(Attr.HP)*0.035) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
 	case 4:
-		Attr.DPS = (float32(Attr.ATK)*0.4 + float32(Attr.DEF)*0.6) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
+		Attr.DPS = (float32(Attr.ATK)*0.1 + float32(Attr.DEF)*0.9) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
 	case 5:
 		Attr.DPS = (float32(Attr.ATK)*0.2 + 2000) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
 	case 6:
