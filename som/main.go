@@ -420,11 +420,15 @@ func caculate(Cr CompleteRunes, monster *MyMonster) MonsterAttribute {
 	case 3:
 		Attr.DPS = (float32(Attr.ATK)*0.15 + float32(Attr.HP)*0.035) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
 	case 4:
-		Attr.DPS = (float32(Attr.ATK)*0.1 + float32(Attr.DEF)*0.9) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
+		Attr.DPS = (float32(Attr.ATK)*0.37 + float32(Attr.DEF)*0.63) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
 	case 5:
 		Attr.DPS = (float32(Attr.ATK)*0.2 + 2000) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
 	case 6:
 		Attr.DPS = float32(Attr.ATK) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 / 10 * 2
+	case 7:
+		Attr.DPS = float32(Attr.ATK) * (float32(Attr.SPD)/300 + 0.3) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
+	case 8:
+		Attr.DPS = (float32(Attr.ATK)*0.05 + float32(Attr.DEF)*0.95) * float32((10000 + Attr.CRI*Attr.CRIDMG)) / 10000 * float32(Attr.SPD) / 110 / 10 * 2
 	}
 	//Special monster
 	if monster.mon.Unit_id == 1325114940 {
